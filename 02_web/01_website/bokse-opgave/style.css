@@ -1,0 +1,263 @@
+/* ******************INDSTILLINGER For opgave 1-20*************** */
+/* ***************Det er herunder du skal rette:***************** */
+
+/*-------------------------------boks 1--------------------------------*/
+
+.box1 .content {
+  color: white;
+  text-shadow: 4px 4px 10px magenta;
+  font-size: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+/*-------------------------------boks 2--------------------------------*/
+
+.box2 .content {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 21px;
+  font-weight: 550;
+}
+
+/*-------------------------------boks 3--------------------------------*/
+
+.box3 .content {
+  color: rgb(40, 152, 40);
+  font-size: 22px;
+  font-weight: 400;
+  text-shadow: 2px 2px 5px rgb(66, 252, 66);
+  text-indent: 20px;
+}
+.box3 .content p::first-letter {
+  font-size: 50px;
+  color: rgba(0, 0, 255, 0.667);
+}
+
+/*-------------------------------boks 4--------------------------------*/
+
+.box4 .content {
+  color: red;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+/*-------------------------------boks 5--------------------------------*/
+
+@font-face {
+  font-family: minFont;
+  src: url("elriolobo/elriott2-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box5 .content {
+  font-family: 'minFont';
+  font-size: 60px;
+  font-weight: 500;
+  color: orange;
+}
+
+/*-------------------------------boks 6--------------------------------*/
+
+@font-face {
+  font-family: minFontRussian;
+  src: url("russiano/russiano-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.box6 .content {
+  font-family: 'minFontRussian';
+  color: rgb(205, 16, 16);
+  font-size: 48px;
+}
+
+/*-------------------------------boks 7--------------------------------*/
+
+.box7 .content {
+  color: rgb(0, 145, 193);
+  font-family: 'Krona One';
+  font-size: 42px;
+}
+
+/*-------------------------------boks 8--------------------------------*/
+
+.box8 .content {
+
+  font-family: 'Pacifico';
+  font-size: 60px;
+  color: blueviolet;
+}
+
+/*-------------------------------boks 9--------------------------------*/
+
+.box9 .content {
+  background-color: rgb(201, 249, 138);
+  line-height: 1.4;
+  font-size: 18px;
+}
+
+/*-------------------------------boks 10--------------------------------*/
+
+.box10 .content {
+  background-color: rgb(227, 248, 254);
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+/*-------------------------------boks 11--------------------------------*/
+
+.box11 .content a {
+  font-weight: 600;
+  color: orangered;
+  text-decoration: none;
+}
+
+/*-------------------------------boks 12--------------------------------*/
+
+.box12 .content {
+  /*Her indsættes baggrundsbillede vha. background-image og background-size */
+  background-image: url("bg_images/himmel.jpeg");
+  background-size: cover;
+  /*Her styles teksten*/
+  font-size: 32px;
+  font-weight: 600;
+}
+
+/*-------------------------------boks 13--------------------------------*/
+
+.box13 .content {
+  /*Her styles teksten (størrelse og "weight")*/
+  
+  font-weight: 600;
+  font-size: 60px;
+  /*Her indsættes baggrundsbillede vha. background-image og background-size */
+  background-image: url("bg_images/himmel.jpeg");
+  background-size: cover;
+  
+  /*Her indsættes baggrundsbilledet som fyld i teksten og teksten gøres transparent*/
+  
+  background-clip: text;
+  color: transparent;
+  
+}
+
+/*-------------------------------boks 14--------------------------------*/
+
+.box14 .content {
+  /*Her indsættes gradient vha. background-image*/
+  background-image: linear-gradient(purple,#f42069, orange) ;
+  /*Her styles teksten*/
+  text-align: right;
+  font-style: italic;
+  font-size: 30px;
+  color: rgb(221, 221, 221);
+}
+
+/*-------------------------------boks 15--------------------------------*/
+
+.box15 .content {
+  /*Her indsættes de to baggrunde vha. background separeret af komma - husk at den der skal ligge øverst skal stå først*/
+  background-image: url("bg_images/blomst.png"), linear-gradient(to right, #e96443, #904e95 ) ;
+  /* størrelse på de to baggrunde separeret af komma */
+  background-size: 80px, cover;
+  /* skal baggrundsbilledet gentages? */
+  background-repeat: no-repeat;
+  /* Hvor skal baggrundsbilledet placeres? */
+  background-position: right 0% bottom 15%;
+  /*Her styles teksten*/
+  color: white;
+  font-size: 21px;
+}
+
+/*-------------------------------boks 16--------------------------------*/
+
+.box16 .content {
+  /*Her indsættes gradient vha. background-image*/
+  background-image: repeating-radial-gradient(
+    circle at 0 0,
+     black, 
+     maroon,
+     pink,
+     white 40px);
+}
+
+/*-------------------------------boks 17--------------------------------*/
+
+.box17 .content {
+  /*Kode som flexer indholdet*/
+  display: flex;
+  justify-content: space-around;
+  /*Kode som sætter baggrundsbillede (himmel.jpg ind)    */
+  background-image: url("bg_images/himmel.jpeg");
+}
+
+/*Kunne gøres smartere, men så blev det lidt for besværligt for de studerende:*/
+
+.box17 .content .kvadrat1 {
+  /*Styling af de to bokse: width, height og border*/
+  width: 100px;
+  height: 100px;
+  border: 1px dashed magenta;
+
+  /*Indsæt selv blomsten med background-image og background-size*/
+  background-image: url("bg_images/blomst.png");
+  background-size: cover;
+  /*Baggrundsfarve*/
+  background-color: rgb(255, 221, 0);
+}
+
+.box17 .content .kvadrat2 {
+  /*Styling af de to bokse: width, height og border*/
+  width: 100px;
+  height: 100px;
+  border: 1px dashed magenta;
+
+  /*Indsæt blomsten med background-image og background-size*/
+  background-image: url("bg_images/blomst.png");
+  background-size: cover;
+  /*Baggrundsfarve*/
+  background-color: rgba(185, 238, 144, 0.627);
+}
+
+/*-------------------------------boks 18--------------------------------*/
+
+.box18 .content {
+  /*Kode som flexer indholdet*/
+  display: flex;
+  justify-content: center;
+  /*Indsæt blåt baggrundsbillede*/
+  background-image: url("bg_images/blue.jpeg");
+  background-size: cover;
+}
+
+.box18 .content .kvadrat {
+  /*Styling af boksen: width & height*/
+  width: 100px;
+  height: 100px;
+  /*Indsæt blomsten med background-image og background-size*/
+  background-image: url("bg_images/blomst.png");
+  background-size: cover;
+  /*Brug filter så blomsten får en sepia toning*/
+  filter: sepia();
+}
+
+/*-------------------------------boks 19--------------------------------*/
+
+.box19 .content {
+  font-family: AXIS, Arial, Helvetica, sans-serif;
+  color: #f42069;
+  text-shadow: 2px 2px 4px blueviolet;
+}
+
+/*-------------------------------boks 20--------------------------------*/
+
+.box20 .content {
+  background-image: linear-gradient(to right, yellow, #f42069);
+  font-family: AXIS, Arial, Helvetica, sans-serif; 
+  color: rgb(66, 66, 66);
+  text-align: center;
+  text-shadow: 1px 1px black;
+}

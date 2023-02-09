@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link href="https://fonts.googleapis.com/css2?family=Krona+One&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="generel.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="box box1">
+        <h2>1. styling af tekst</h2>
+        <div class="image">
+          <img src="images/image1.png" alt="image1" />
+        </div>
+        <div class="content">
+          <p>Aliter enim explicari, quod quaeritur, non potest.</p>
+        </div>
+        <div class="text">
+          <p>
+            Teksten er stylet med hvid farve, fonten er Arial i størrelsen 1.6 rem og så har den fået en text-shadow i magenta. Læs om hvordan "text-shadow" fungerer, fx
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/text-shadow">her</a>. <br />
+            I font-family bruger jeg en font-stack (en liste af alternative fonte).
+          </p>
+          <p>Tip - Du skal bruge 4 properties:</p>
+          <ul>
+            <li>color</li>
+            <li>font-family: (Arial, Helvetica, sans-serif)</li>
+            <li>font-size</li>
+            <li>text-shadow (i farven magenta)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box2">
+        <h2>2. styling af tekst</h2>
+        <div class="image">
+          <img src="images/image2.png" alt="image2" />
+        </div>
+        <div class="content">
+          <p>Aliter enim explicari, quod quaeritur, non potest.</p>
+        </div>
+        <div class="text">
+          <p>
+            Her skal fonten være Open Sans, og så skal du sørge for at stregen er tilpas tynd. Du skal angive sans-serif som alternativ til Open Sans hvis din bruger ikke har den på din computer. Se
+            hvordan herunder.
+          </p>
+          <p>Tip: Du skal bruge følgende properties:</p>
+          <ul>
+            <li>font-family: 'Open Sans', sans-serif;</li>
+            <li>font-size</li>
+            <li>font-weight</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box3">
+        <h2>3. styling af tekst</h2>
+        <div class="image">
+          <img src="images/image3.png" alt="image3" />
+        </div>
+        <div class="content">
+          <p>Aliter enim explicari, quod quaeritur, non potest.</p>
+        </div>
+        <div class="text">
+          <p>
+            Her er der igen en tekst med en farvet skygge som i opgave 1.<br />
+            Derudover er der en indrykning af den første linie (text-indent), og så er det første bogstav større end resten af teksten og har en anden farve. <br />
+            Læg mærke til at du skal bruge pseudo-selectoren (p::first-letter) for at få fat i det første bogstav.
+          </p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>color</li>
+            <li>font-size</li>
+            <li>text-shadow</li>
+            <li>text-indent</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box4">
+        <h2>4. styling af tekst</h2>
+        <div class="image">
+          <img src="images/image4.png" alt="image4" />
+        </div>
+        <div class="content">
+          <p>Aliter enim explicari, quod quaeritur, non potest.</p>
+        </div>
+        <div class="text">
+          <p>Her skal du sørge for at teksten står med majuskler (store bogstaver) men uden at ændre i html'en!</p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>color</li>
+            <li>font-size</li>
+            <li>text-transform</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box5">
+        <h2>5. Webfont: @font-face</h2>
+        <div class="image">
+          <img src="images/image5.png" alt="image5" />
+        </div>
+        <div class="content">El Rio Lobo</div>
+        <div class="text">
+          <p>
+            Her har jeg brugt fonten "El Rio Lobo" som jeg har lavet om til en webfont på:
+            <a href="https://www.fontsquirrel.com/tools/webfont-generator">fontsquirrel.com</a>. Vær opmærksom på om der er rettigheder på den font du anvender! <br />Og husk at .woff og .woff2
+            filerne skal uploades sammen med din html og css for at virke.
+          </p>
+          <p>Jeg har lavet @font-face koden, så du skal bare bruge fonten "minFont" på din tekst</p>
+
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>font-family</li>
+            <li>font-size</li>
+            <li>font-weight</li>
+            <li>color</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box6">
+        <h2>6. Webfont: @font-face</h2>
+        <div class="image">
+          <img src="images/image6.png" alt="image6" />
+        </div>
+        <div class="content">Russiano</div>
+        <div class="text">
+          <p>
+            Her skal du igen bruge @font-face til at indsætte fonten Russiano. Du kan se på det forrige eksempel hvordan jeg har gjort. Jeg har lagt webfontkittet med .woff filerne og eksempel-css i
+            mappen "russiano"
+          </p>
+          <p>Undlad at installere fonten på din computer, så kan du med det samme se om det virker.</p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>color</li>
+            <li>font-family</li>
+            <li>font-size</li>
+            <li>font-weight</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box7">
+        <h2>7. Webfont: Google fonts</h2>
+        <div class="image">
+          <img src="images/image7.png" alt="image7" />
+        </div>
+        <div class="content">Krona One</div>
+        <div class="text">
+          <p>Google-fonts har gjort det nemmere for os at anvende webfonte. Du skal hente linket hos Google fonts og indsætte det i din html (i head). Fonten hedder Krona One.</p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>color</li>
+            <li>font-family</li>
+            <li>font-size</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box8">
+        <h2>8. Webfont: Google fonts</h2>
+        <div class="image">
+          <img src="images/image8.png" alt="image8" />
+        </div>
+        <div class="content">Pacifico</div>
+        <div class="text">
+          <p>Du skal gøre det samme som i opgave 7, bare med en anden font. Gæt selv hvad fonten hedder :)</p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>color</li>
+            <li>font-family</li>
+            <li>font-size</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box9">
+        <h2>9. line-height</h2>
+        <div class="image">
+          <img src="images/image9.png" alt="image9" />
+        </div>
+        <div class="content">
+          <p>Quoniam, si dis placet, ab Epicuro loqui discimus. Negare non possum. Quid de Pythagora?</p>
+        </div>
+        <div class="text">
+          <p>Her vil vi have en baggrundsfarve og så skal der være mere linieafstand end normalt.</p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>background-color</li>
+            <li>font-size</li>
+            <li>line-height</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box10">
+        <h2>10. Letter-spacing</h2>
+        <div class="image">
+          <img src="images/image10.png" alt="image10" />
+        </div>
+        <div class="content">
+          <p>Quoniam, si dis placet, ab Epicuro loqui discimus. Negare non possum. Quid de Pythagora?</p>
+        </div>
+
+        <div class="text">
+          <p>Her skal du skabe større afstand mellem de enkelte bogstaver (det der hedder tracking indenfor typografi).</p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>font-size</li>
+            <li>letter-spacing</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box11">
+        <h2>11. Styling af tekstlinks</h2>
+        <div class="image">
+          <img src="images/image11.png" alt="image11" />
+        </div>
+        <div class="content">
+          <p>
+            Satis est ad hoc responsum.
+            <a href="#">Eaedem res maneant alio modo.</a> Sic enim censent, oportunitatis esse beate vivere. Istam voluptatem, inquit, Epicurus ignorat?
+          </p>
+        </div>
+        <div class="text">
+          <p>Link vises default i en blå farve og med understregning. Her skal du ændre farve og udseende på dine links så de fremstår orangerød, i en "tykkere" udgave og uden understregning:</p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>color</li>
+            <li>text-decoration</li>
+            <li>font-weight</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box12">
+        <h2>12. Baggrundsbillede</h2>
+        <div class="image">
+          <img src="images/image12.png" alt="image12" />
+        </div>
+        <div class="content">Lorem ipsum</div>
+        <div class="text">
+          <p>
+            Her skal du indsætte billedet (himmel.jpeg) som baggrund vha. background-image. Herefter skal du bruge background-size til at definere hvor stort billedet skal være. Brug 100% eller
+            "cover". Til slut skal du style teksten.
+          </p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>background-image: url();</li>
+            <li>background-size</li>
+            <li>font-size</li>
+            <li>font-weight</li>
+            <li>color</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box13">
+        <h2>13. Tekst-maske</h2>
+        <div class="image">
+          <img src="images/image13.png" alt="image13" />
+        </div>
+        <div class="content">Lorem</div>
+        <div class="text">
+          <p>
+            Her skal du indsætte det samme billede som i den forrige opgave.
+            <br />
+            Herefter skal du bruge (background-clip: text;) for at bruge billedet som fyld i din tekst. <br />
+            For at kunne se effekten skal din tekst være transparent (color: transparent;)
+          </p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>background-image: url();</li>
+            <li>background-size</li>
+            <li>font-size</li>
+            <li>font-weight</li>
+            <li>background-clip</li>
+            <li>color</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box14">
+        <h2>14. Gradient</h2>
+        <div class="image">
+          <img src="images/image14.png" alt="image14" />
+        </div>
+        <div class="content">Gradient</div>
+        <div class="text">
+          <p>
+            Her skal baggrunden være en gradient. Læs på
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/gradient">MDN</a>
+            hvordan man gør - det er ret nemt. Det kan være svært at få den helt nøjagtigt magen til min, men du skal anvende mindst 3 farver.
+          </p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>background-image</li>
+            <li>font-size</li>
+            <li>font-style</li>
+            <li>color</li>
+            <li>text-align</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box15">
+        <h2>15. Flere baggrunde</h2>
+        <div class="image">
+          <img src="images/image15.png" alt="image15" />
+        </div>
+        <div class="content">uigradients.com</div>
+        <div class="text">
+          <p>
+            Også her skal du indsætte en gradient og et billede af en bloms. Jeg har fundet min gradient på:
+            <a href="https://uigradients.com/#Royal">uigradients.com</a> - den hedder "Atlas", men du må gerne bruge en anden. <br />
+            Se på dagens slides hvordan du buger flere baggrunde, eller læs mere her:
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Backgrounds_and_Borders/Using_multiple_backgrounds">MDN</a>
+            .
+          </p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>background</li>
+            <li>background-size</li>
+            <li>background-repeat</li>
+            <li>background-position</li>
+            <li>font-size</li>
+            <li>color</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box16">
+        <h2>16. Repeating-gradient</h2>
+        <div class="image">
+          <img src="images/image16.png" alt="image16" />
+        </div>
+        <div class="content"></div>
+        <div class="text">
+          <p>
+            Her skal du også indsætte en gradient men det skal være en radial-gradient og den skal gentages et antal gange. Centrum for din gradient skal ligge i øverste venstre hjørne. Du kan læse om
+            repeating gradients på:
+            <a href="https://css-tricks.com/snippets/css/css-repeating-gradients/">css-tricks.com </a>eller på
+            <a href="https://www.w3schools.com/cssref/func_repeating-linear-gradient.asp">w3schools.com</a>
+            <br />På css-tricks siden er der et eksempel der ligner meget :)
+          </p>
+          <p>Tip - Du skal bruge følgende properties:</p>
+          <ul>
+            <li>background-image</li>
+          </ul>
+          <p>De 4 forskellige farver er: black, maroon, pink og white.</p>
+        </div>
+      </div>
+
+      <div class="box box17">
+        <h2>17. Transparent baggrund</h2>
+        <div class="image">
+          <img src="images/image17.png" alt="image17" />
+        </div>
+        <div class="content">
+          <div class="kvadrat1"></div>
+          <div class="kvadrat2"></div>
+        </div>
+        <div class="text">
+          <p>
+            Her er to div'er med class="kvadrat. Den første skal have en gul baggrundsfarve samt en blomst som baggrundsbillede. Den anden skal have en gul transparent baggrund med den samme blomst
+            som baggrundsbillede. Husk at du skal bruge rgba eller hsla hvis du skal gøre baggrundsfarven transparent...
+          </p>
+          <p>Tips til content boksen:</p>
+          <ul>
+            <li>background-image</li>
+            <li>background-size</li>
+          </ul>
+          <p>Tips til "kvadrat" boksene:</p>
+          <ul>
+            <li>background-image</li>
+            <li>background-size</li>
+          </ul>
+          <p>Tips til "k1" og "k2" klasserne:</p>
+          <ul>
+            <li>background-color</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="box box18">
+        <h2>18. CSS filters</h2>
+        <div class="image">
+          <img src="images/image18.png" alt="image18" />
+        </div>
+        <div class="content">
+          <div class="kvadrat"></div>
+        </div>
+        <div class="text">
+          <p>Blomsten placeres som i forrige opgave i div'en "kvadrat", men i stedet for at give kvadrat en baggrundsfarve, bruger vi et CSS filter (sepia).</p>
+          <p>Tips til content boksen:</p>
+          <ul>
+            <li>background-image</li>
+            <li>background-size</li>
+          </ul>
+          <p>Tips til "kvadrat" boksen:</p>
+          <ul>
+            <li>background-image</li>
+            <li>background-size</li>
+            <li>filter</li>
+          </ul>
+
+          <p>
+            Se og læs om andre filtre her på:
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter">developer.mozilla.org</a>
+          </p>
+        </div>
+      </div>
+
+      <div class="box box19">
+        <h2>19. Din egen tekst styling</h2>
+        <div class="content">
+          <p>Aliter enim explicari, quod quaeritur, non potest.</p>
+        </div>
+        <div class="text">
+          <p>Her er ikke noget billede. Lav din egen styling og brug det som reference senere</p>
+
+          <p>Tips: du kan evt skrive dine egne tips her...</p>
+        </div>
+      </div>
+
+      <div class="box box20">
+        <h2>20. Din egen baggrund</h2>
+
+        <div class="content">
+          <p>Min egen baggrund</p>
+        </div>
+        <div class="text">
+          <p>Her er ikke noget billede. Eksperimenter med din egen gradient, baggrundsbillede eller en kombination af begge. Du kan også bruge en tekstmaske...</p>
+
+          <p>Tips: du kan evt skrive dine egne tips her...</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
