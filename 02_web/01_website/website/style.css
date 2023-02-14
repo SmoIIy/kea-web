@@ -12,6 +12,10 @@
     box-sizing: border-box;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
 
 @font-face {
     font-family: MartelSans;
@@ -55,7 +59,6 @@ img {
     border-radius: 15%;
     display: block;
     width: 100%;
-    height: 15%;
     padding: 20px;
 }
 
