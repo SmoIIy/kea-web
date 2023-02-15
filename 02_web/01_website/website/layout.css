@@ -31,6 +31,11 @@
     .grid_3-2 .order {
         order: 1;
     }
+    .grid_1-1-1-1 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5%;
+    }
 
 }
 
