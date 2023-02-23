@@ -1,0 +1,96 @@
+@font-face {
+    font-family: BladeRunner;
+    src: url("fonts/BLADRMF_.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: GoodTimes;
+    src: url("fonts/Atarian/SF\ Atarian\ System.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+
+  h1 {
+    font-family: 'BladeRunner', sans-serif;
+    color: white;
+  }
+
+  h2 {
+    font-family: 'GoodTimes', sans-serif;
+    color: white;
+  }
+
+  p {
+    font-family: 'Arimo', sans-serif;
+    color: white;
+  }
+
+  /************************ End Fonts *******************************************/
+  /************************ TODOS ****************************************** */
+/*
+  .imagetop #imagetopid{
+    object-fit: cover;
+    position: absolute;
+    width: 100%;
+    
+}
+*/
+  /************************ Background ******************************************/
+body {
+    background-image: linear-gradient(#0D0221, #261447, #ff3864);
+}
+main {
+    background-image: linear-gradient(#0D0221, #261447, #ff3864);
+    height: 2000px;
+}
+
+/************************ Header ******************************************/
+header {
+
+    top: 0;
+    padding: 1rem 2rem;
+    box-shadow: 0 12px 28px 0 rgb(0 0 0 / 30%);
+    display: flex;
+    justify-content: space-between;
+    align-items: last baseline;
+}
+header .logo a {
+    font-size: 2rem;
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 0.4rem;
+    gap: 30px;
+    overflow-x: auto;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+    color: #5e6b74;
+}
+
+/************************ Animation ******************************************/
+
+.hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+
+.show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
