@@ -21,8 +21,13 @@
     }
     .grid_1-2 {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         min-height: 100vh;
         place-items: center;
     }
+    .flex-1 {
+        display: flex;
+        justify-content: center;
+        gap: 15%;
+      }
 }
