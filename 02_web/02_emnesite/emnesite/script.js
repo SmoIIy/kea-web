@@ -1,4 +1,5 @@
 
+/* Scroll in Animation */
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
@@ -14,3 +15,14 @@ const observer = new IntersectionObserver((entries) => {
 
 const hiddenElements = document.querySelectorAll('.hidden');
 hiddenElements.forEach((el) => observer.observe(el));
+
+/* Hamburger Menu */
+
+window.onload = function (){
+    const menuBtn = document.querySelector('.hamburger');
+    const mobileMenu = document.querySelector('.mobile-nav');
+    window.addEventListener('click', function(){
+        menuBtn.classList.toggle('is-active')
+        mobileMenu.classList.toggle('is-active')
+    });
+}
