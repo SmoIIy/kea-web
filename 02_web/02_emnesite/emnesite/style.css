@@ -212,6 +212,10 @@ button:hover {
 .photo {
   box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
 }
+iframe {
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+  margin-top: 10px;
+}
 
 hr {
   border: 0;

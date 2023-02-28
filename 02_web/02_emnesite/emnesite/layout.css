@@ -57,4 +57,22 @@
     .col-2_3_2 {
         grid-column: 4/span 1;
     }
+
+    /* Page 3 '*/
+    .grid-3_1 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 5%;
+    }
+    .flex-3_1 {
+        grid-column: 1/span 1;
+    }
+    .flex-3_3 {
+        grid-column: 3/span 1;
+    }
+    .flex-3_4 {
+        grid-column: 1/span 3;
+        min-height: 20vh;
+    }
+    
 }
