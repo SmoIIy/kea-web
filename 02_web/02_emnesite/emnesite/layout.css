@@ -54,4 +54,7 @@
     .col-2_3_1 {
         grid-column: 1/span 3;
     }
+    .col-2_3_2 {
+        grid-column: 4/span 1;
+    }
 }

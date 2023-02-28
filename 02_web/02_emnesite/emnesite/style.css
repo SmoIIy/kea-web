@@ -132,7 +132,7 @@ body {
 
 .mobile-nav {
   position: fixed;
-  top: 8vh;
+  top: 9vh;
   left: 100%;
   width: 100%;
   min-height: 100vh;
@@ -161,6 +161,7 @@ body {
 }
 
 /************************ Main ******************************************/
+
 .title {
   display: flex;
   align-items: center;
@@ -174,7 +175,9 @@ body {
   padding-top: 5%;
   padding-bottom: 15px;
 }
-
+.flex-1 .photo {
+  max-width: 350px;
+}
 /************************ Footer ******************************************/
 footer {
   min-height: 20vh;
@@ -243,4 +246,22 @@ hr {
 }
 .image:nth-child(3) {
   transition-delay: 600ms;
+}
+.imageoverlay {
+  position: relative;
+
+
+}
+.imagetext {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  font-size: 28px;
+  opacity: 0;
+  transition: .5s ease;
+
+}
+
+.imageoverlay:hover .imagetext {
+  opacity: 1;
 }
