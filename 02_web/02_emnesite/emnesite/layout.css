@@ -11,7 +11,7 @@
         margin: 0 auto;
         min-height: 100vh;
     }
-
+    /* Page 1 */
     .grid_1-1 {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -30,4 +30,28 @@
         justify-content: center;
         gap: 15%;
       }
+    /* Page 2 */
+    .grid-2_1 {
+        padding-top: 5%;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        gap: 5%;
+    }
+    .grid-2_2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .grid-2_3 {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 5%;
+        padding-top: 5%;
+        padding-bottom: 5%;
+    }
+    .col-2_3_1 {
+        grid-column: 1/span 3;
+    }
 }
