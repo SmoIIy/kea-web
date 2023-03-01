@@ -60,6 +60,7 @@
 
     /* Page 3 '*/
     .grid-3_1 {
+        padding-top: 25px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 5%;
