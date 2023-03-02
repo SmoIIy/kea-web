@@ -1,7 +1,0 @@
-Header add "Cache-Control" "no-cache"
-Access-Control-Allow-Origin: https://janusbardrum.com
-
-#Rewrite everything to https
-RewriteEngine On
-RewriteCond %{HTTPS} !=on
-RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
