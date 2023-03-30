@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  padding: 10px;
+}
+
+img {
+  width: 300px;
+}
+
+p,
+li {
+  margin: 0.5em 0;
+}
+@media (min-width: 1000px) {
+  .wrapper {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
+section {
+  margin: 2em 0;
+}
+
+.scene {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border: 1px solid red;
+}
+
+.box {
+  width: 10%;
+  aspect-ratio: 1/1;
+  display: inline-block;
+}
+.box {
+  width: 10%;
+  aspect-ratio: 1/1;
+  display: inline-block;
+}
+
+.red {
+  background-color: red;
+  scale: 1 2;
+  translate: 45% 175%;
+}
+.green {
+  background-color: green;
+  scale: 2.8;
+  rotate: 45deg;
+  translate: 55% 225%;
+}
+.blue {
+  background-color: blue;
+  translate: -575% 325%;
+  scale: 0.8;
+}
+.yellow {
+  background-color: yellow;
+  scale: 4 2.5;
+  translate: -50% 350%;
+}
+.purple {
+  background-color: purple;
+  translate: -400% -35%;
+  scale: 0.3;
+}
+.black {
+  background-color: black;
+  scale: 0.2;
+  translate: -470% 35%;
+}
+.pink {
+  background-color: pink;
+  scale: 1 2;
+  translate: -75% 375%;
+}
