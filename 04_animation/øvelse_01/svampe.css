@@ -1,0 +1,152 @@
+#screen {
+    width: 100%;
+    aspect-ratio: 16/9;
+    position: relative;
+}
+
+#game {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#start {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#game_over {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-image: url("svg/gameover.svg") ;
+}
+#level_complete {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+    background-image: url("svg/levelcomplete.svg") ;
+}
+#game_background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("svg/baggrund.svg") ;
+    background-size: cover;
+}
+#game_elements {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+#game_foreground {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("svg/mellemgrund.svg") ;
+    background-size: cover;
+}
+#game_ui {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#stinksvamp_container {
+    position: absolute;
+    width: 13%;
+    aspect-ratio: 4/5;
+    top: 44%;
+    left: 83%;
+}
+#stinksvamp_sprite {
+    background-image: url("svg/stinksvamp_1.svg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#carljohan_container {
+    position: absolute;
+    width: 16%;
+    aspect-ratio: 5/7;
+    top: 46%;
+    left: 49%;
+}
+#carljohan_sprite {
+    background-image: url("svg/carljohan_b.svg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#fluesvamp_container {
+    position: absolute;
+    width: 19%;
+    aspect-ratio: 7/8;
+    top: 22%;
+    left: 18%;
+}
+#fluesvamp_sprite {
+    background-image: url("svg/fluesvamp_1.svg");
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+#time_board {
+    position: absolute;
+    width: 6%;
+    aspect-ratio: 1/1.6;
+    top: 66%;
+    left: 4%;
+    background-image: url("svg/ui_time.svg");
+    background-size: cover;
+}
+#score_board {
+    position: absolute;
+    width: 23%;
+    aspect-ratio: 8/3;
+    top: 69%;
+    left: 12%;
+    background-image: url("svg/ui_points.svg");
+    background-size: cover;
+}
+#life_board {
+    position: absolute;
+    width: 20%;
+    aspect-ratio: 3/1;
+    top: 85%;
+    left: 3%;
+    background-image: url("svg/ui_life.svg");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
