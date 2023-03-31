@@ -1,0 +1,328 @@
+.falling {
+    animation-name: falling_ani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes falling_ani {
+    0% {
+        translate: 0 -250%;
+    }
+    100% {
+        translate: 0 250%;
+    }
+}
+
+.bouncing {
+    animation-name: bouncing_ani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+@keyframes bouncing_ani {
+    0% {
+        translate: 0 -150%;
+    }
+    100% {
+        translate: 0 150%;
+    }
+}
+
+.drop {
+    animation-name: drop_ani;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes drop_ani {
+    from {
+        translate: 0 -250%;
+    }
+    to {
+        translate: 0 140%;
+    }
+}
+
+.pattern {
+    animation-name: pattern_ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes pattern_ani {
+  0%   {translate: 0 -165% ;}
+  25%  {translate: 150% 0;}
+  50%  {translate: 0 150%;}
+  75%  {translate: -165% 0;}
+  100% {translate: 0 -165%;}
+}
+
+.zoom_out {
+    animation-name: zoom_out_ani;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom_out_ani {
+    from {
+        scale: 1;
+    }
+    to {
+        scale: 0;
+    }
+}
+
+.zoom_in {
+    animation-name: zoom_in_ani;
+    animation-duration: 0.5s;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom_in_ani {
+    from {
+        scale: 1;
+    }
+    to {
+        scale: 7;
+    }
+}
+
+.fade_out {
+    animation-name: fade_out_ani;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade_out_ani {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.fade_in {
+    animation-name: fade_in_ani;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fade_in_ani {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.rotation {
+    animation-name: rotation_ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    
+}
+
+@keyframes rotation_ani {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    
+}
+
+.rotation2 {
+    animation-name: rotation2_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    transform-origin: 130px 15px;
+}
+
+@keyframes rotation2_ani {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+    
+}
+
+.glow {
+    animation-name: glow_ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate;
+}
+
+@keyframes glow_ani {
+    to {
+        filter: drop-shadow(0px 0px 12px gold);
+    }
+}
+
+.blur_to_gray {
+    animation-name: blur_to_gray_ani;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+@keyframes blur_to_gray_ani {
+    from {
+        translate: -150% 0;
+        transform: rotate(0deg);
+    }
+    to {
+        translate: 150% 0;
+        transform: rotate(165deg);
+        filter: blur(5px) grayscale(80%);
+    }
+}
+
+.pulse {
+    animation-name: pulse_ani;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-direction: alternate;
+}
+
+@keyframes pulse_ani {
+    from {
+        scale: 0.9;
+    }
+    to {
+        scale: 1;
+    }
+}
+
+.overshoot {
+    animation-name: overshoot_ani;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(.41,1.58,.67,.73);
+    animation-fill-mode: forwards;
+}
+
+@keyframes overshoot_ani {
+    0% {   
+        translate: -150% 0;
+        transform: rotate(90deg);
+    }
+    100% {   
+        translate: 140% 0;
+        transform: rotate(360deg);
+    }
+    90% {
+        translate: 180% 0;
+        transform: rotate(380deg);
+    }
+}
+
+.bounce {
+    animation-name: bounce_ani;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+}
+
+@keyframes bounce_ani {
+    0% {
+        translate: -140% -140%;
+    }
+    15% {
+        translate: -100% 140%;
+    }
+    30% {
+        translate: -80% -80%;
+    }
+    45% {
+        translate: -30% 140%;
+    }
+    60% {
+        translate: 0 -50%;
+    }
+    75% {
+        translate: 30% 140%;
+    }
+    90% {
+        translate: 60% 80%;
+    }
+    95% {
+        translate: 100% 120%;
+    }
+    100% {
+        translate: 120% 140%;
+    }
+}
+
+.squash {
+    animation-name: squash_ani;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+
+}
+
+@keyframes squash_ani {
+  0%   {
+    translate: 0 -165% ;
+    
+}
+
+  25%  {
+    translate: 150% 0;
+    transform: scale(1);
+}
+  26% {
+    transform: scale(0.8, 1);
+  }
+  28% {
+    transform: scale( 1);
+  }
+
+  50%  {
+    translate: 0 150%;
+}
+  51% {
+    transform: scale(1, 0.8);
+  }
+  52% {
+    transform: scale(1);
+  }
+
+  75%  {
+    translate: -165% 0;
+}
+  76% {
+    transform: scale(0.8, 1);
+  }
+  78% {
+    transform: scale( 1);
+  }
+  98% {
+    transform: scale(0.8, 1);
+  }
+  99% {
+    transform: scale( 1);
+  }
+  100% {
+    translate: 0 -165%;
+}
+
+}

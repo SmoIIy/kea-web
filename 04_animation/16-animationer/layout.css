@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;800&display=swap');
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+article {
+    margin: 1%;   
+    width: 20%; 
+}
+h1 {
+    font-family: 'Nunito Sans', sans-serif;
+}
+.animation {
+    border: 2px solid black;
+    width: 100%;
+    aspect-ratio: 1/1;
+    position: relative;
+    overflow: hidden;
+}
+
+.text {
+    max-width: 100%;
+}
+
+.text h2, .text p {
+    margin: 0;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.text h2 {
+    font-size: 1.1rem; 
+}
+.text p {
+    font-size: .9rem;
+}
+
+
+.ball {
+    position: absolute;
+    width: 25%;
+    height: 25%;
+    background-image: url(beachball.svg);
+    background-size: 100%;
+    
+    top: 40%;
+    left: 40%;
+}
+
+#animation_11 .animation {
+    background-color: #aaa;
+}
