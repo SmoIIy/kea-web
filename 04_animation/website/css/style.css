@@ -52,7 +52,7 @@ body {
     height: 100%;
 }
 
-.remove {
+.remove_fisk {
     animation-name: remove_ani;
     animation-duration: 0.1s;
     animation-timing-function: ease;
@@ -67,7 +67,13 @@ body {
         clip-path: circle(0%);
     }
 }
+/* TO DO 
 
+.remove_skrald {
+    
+}
+
+ TO DO */
 .move_right {
     animation-name: move_right_ani;
     animation-duration: 5s;
