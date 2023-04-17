@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Point events non */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+.game_window {
+    position: relative;
+    aspect-ratio: 16/9;
+    width: 60%;
+    border-style: solid;
+    border-color: black;
+    left: 15%;
+    top: 5%;
+    background-image: url(/sandboxspil/assets/baggrund1.svg);
+    background-size: cover;
+}
+
+#fisk_container {
+    position: absolute;
+    aspect-ratio: 16/11;
+    width: 10%;
+    top: 5%;
+    left: 0%;
+}
+
+#fisk_sprite {
+    background-image: url(/sandboxspil/assets/fisk1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+#skrald_container {
+    position: absolute;
+    aspect-ratio: 10/13;
+    width: 7%;
+    top: 5%;
+    left: 25%;
+}
+
+#skrald_sprite {
+    background-image: url(/sandboxspil/assets/skrald1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.remove {
+    animation-name: remove_ani;
+    animation-duration: 0.1s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+}
+
+@keyframes remove_ani {
+    from {
+        clip-path: circle(100%);
+    }
+    to {
+        clip-path: circle(0%);
+    }
+}
+/* TO DO 
+
+.remove_skrald {
+    
+}
+
+ TO DO */
+.move_right {
+    animation-name: move_right_ani;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+
+@keyframes move_right_ani {
+    from {
+        transform: translate(0, 0);
+    }
+    to {
+        transform: translate(950%, 0);
+    }
+}
+
+.frys {
+    animation-play-state: paused;
+  }
+  
+
+
+.move_left {
+    animation-name: move_left_ani;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
+}
+
+
+@keyframes move_left_ani {
+    from {
+        transform: translate(950%, 0);
+    }
+    to {
+        transform: translate(0%, 0);
+    }
+}
+
+.move_down {
+    animation-name: move_down_ani;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes move_down_ani {
+    from {
+        transform: translate(0, -100%);
+    }
+    to {
+        transform: translate(0, 300%);
+    }
+}
