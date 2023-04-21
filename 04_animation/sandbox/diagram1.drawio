@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="dPa3eCRp1KqCvTpyh3m8" name="Page-1">
-        <mxGraphModel dx="1016" dy="619" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1137" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -50,7 +50,7 @@
                 <mxCell id="57" value="Skriv point ud" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="55" vertex="1">
                     <mxGeometry y="57" width="190" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="117" value="Afspil lyd good" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="55">
+                <mxCell id="117" value="Afspil lyd good" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="55" vertex="1">
                     <mxGeometry y="77" width="190" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="58" value="Start goodForsvind -animation" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="55" vertex="1">
@@ -104,7 +104,7 @@
                 <mxCell id="77" value="Vis antal liv" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="75" vertex="1">
                     <mxGeometry y="57" width="190" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="118" value="Afspil lyd bad" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" vertex="1" parent="75">
+                <mxCell id="118" value="Afspil lyd bad" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="75" vertex="1">
                     <mxGeometry y="77" width="190" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="78" value="badForsvind -animation" style="fillColor=none;strokeColor=none;align=left;verticalAlign=middle;spacingLeft=5;" parent="75" vertex="1">
@@ -130,7 +130,7 @@
                         <mxPoint as="offset"/>
                     </mxGeometry>
                 </mxCell>
-                <mxCell id="85" value="fald -animation kørt en gang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" edge="1" source="52">
+                <mxCell id="85" value="fald -animation kørt en gang" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="52" edge="1">
                     <mxGeometry x="0.599" relative="1" as="geometry">
                         <mxPoint x="494.1700000000001" y="437.26" as="sourcePoint"/>
                         <mxPoint x="640" y="702" as="targetPoint"/>
@@ -141,7 +141,7 @@
                     </mxGeometry>
                 </mxCell>
                 <mxCell id="87" value="&lt;span style=&quot;font-size: 12px&quot;&gt;timer -animation færdig&lt;/span&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="46" target="88" edge="1">
-                    <mxGeometry x="-0.6654" relative="1" as="geometry">
+                    <mxGeometry x="0.4104" y="-8" relative="1" as="geometry">
                         <mxPoint x="740.0000000000002" y="120" as="sourcePoint"/>
                         <mxPoint x="765" y="87" as="targetPoint"/>
                         <mxPoint as="offset"/>

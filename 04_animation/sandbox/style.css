@@ -6,6 +6,10 @@ main {
     text-align: center;
 }
 
+li {
+    display: inline;
+}
+
 .time_board {
     display: flex;
     gap: 25%;

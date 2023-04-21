@@ -51,6 +51,32 @@ body {
     width: 100%;
     height: 100%;
 }
+#time_container {
+    width: 5%;
+    aspect-ratio: 1/5.1;
+}
+#time_sprite{
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom;
+    background-image: url(/sandboxspil/assets/timer1.svg);
+}
+.tid {
+    animation-name: time_ani;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
+
+@keyframes time_ani {
+    from {
+        clip-path: inset(0 0 0);
+    }
+    to {
+        clip-path: inset(100% 0 0);
+    }
+}
+
 /* Fisk positions */
 
 .fisk_pos_1{
@@ -83,20 +109,41 @@ body {
 }
 .skrald_pos_2{
     top: 0%;
-    left: 29;
+    left: 29%;
 }
 .skrald_pos_3{
     top: 0%;
-    left: 43;
+    left: 43%;
 }
 .skrald_pos_4{
     top: 0%;
-    left: 61;
+    left: 61%;
 }
 .skrald_pos_5{
     top: 0%;
     left: 75%;
 }
+.skrald_pos_6{
+    top: 0%;
+    left: 51%;
+}
+.skrald_pos_7{
+    top: 0%;
+    left: 49%;
+}
+.skrald_pos_8{
+    top: 0%;
+    left: 37%;
+}
+.skrald_pos_9{
+    top: 0%;
+    left: 88%;
+}
+.skrald_pos_10{
+    top: 0%;
+    left: 90%;
+}
+
 .remove {
     animation-name: remove_ani;
     animation-duration: 0.1s;
@@ -163,7 +210,7 @@ body {
 
 .move_down {
     animation-name: move_down_ani;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
@@ -173,6 +220,6 @@ body {
         transform: translate(0, -100%);
     }
     to {
-        transform: translate(0, 300%);
+        transform: translate(0, 450%);
     }
 }
