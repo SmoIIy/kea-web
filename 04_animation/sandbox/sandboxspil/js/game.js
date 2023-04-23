@@ -2,6 +2,9 @@ const fisk = document.querySelector("#fisk_container");
 const skrald = document.querySelector("#skrald_container");
 const fiskSprite = document.querySelector("#fisk_sprite");
 const skraldSprite = document.querySelector("#skrald_sprite");
+const timeContainer = document.querySelector("#time_container");
+const timeSprite = document.querySelector("#time_sprite");
+
 let randomPositionFisk = Math.floor(Math.random() * 5) + 1;
 let randomPositionSkrald = Math.floor(Math.random() * 5) + 1;
 
@@ -54,4 +57,36 @@ function skraldReset() {
     skrald.classList = "";
     skrald.offsetLeft;
     skrald.classList.add("move_down", "skrald_pos_" + randomPositionSkrald);
+}
+
+function stopGame() {
+    console.log("Game Over");
+    timeSprite.classList.remove("tid");
+    timeContainer.removeEventListener("animationend", stopGame);
+
+    skrald.classList = "";
+    skrald.firstElementChild.classList = "";
+    fisk.classList = "";
+    fisk.firstElementChild.classList = "";
+
+    fisk.removeEventListener("animationiteration", fiskReset);
+    fisk.removeEventListener("animationend", fiskReset);
+    fisk.removeEventListener("mousedown", clickFiskhandler);
+
+    skrald.removeEventListener("animationiteration", skraldReset);
+    skrald.removeEventListener("animationend", skraldReset);
+    skrald.removeEventListener("mousedown", clickSkraldhandler);
+}
+//Refactor maybe
+const timeEnd = document.querySelector("tid");
+timeEnd.addEventListener("animationend", gameEnd);
+
+function gameEnd(){    
+    if (liv == 0) {
+        stopGame();
+        //game lost screen
+    } else {
+        stopGame();
+        //game won score
+    }
 }
