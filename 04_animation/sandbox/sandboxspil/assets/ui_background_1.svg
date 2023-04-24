@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 313.46 328">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: url(#linear-gradient);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="68.11" y1="6.64" x2="232.43" y2="298.42" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7bb48"/>
+      <stop offset=".39" stop-color="#f7931e"/>
+      <stop offset="1" stop-color="#f15a24"/>
+    </linearGradient>
+  </defs>
+  <g id="UI_elements" data-name="UI elements">
+    <rect class="cls-1" x="21" y="21" width="272.26" height="285.99"/>
+    <path class="cls-2" d="m0,7.67v312.65c0,4.24,3.44,7.67,7.67,7.67h298.11c4.24,0,7.67-3.44,7.67-7.67V7.67c0-4.24-3.44-7.67-7.67-7.67H7.67C3.44,0,0,3.44,0,7.67Zm285.59,299.19H27.87c-4.24,0-7.67-3.44-7.67-7.67V28.81c0-4.24,3.44-7.67,7.67-7.67h257.71c4.24,0,7.67,3.44,7.67,7.67v270.38c0,4.24-3.44,7.67-7.67,7.67Z"/>
+    <g id="Highlight">
+      <ellipse class="cls-1" cx="10.91" cy="14.54" rx="3.64" ry="1.58" transform="translate(-6.8 10.41) rotate(-40.01)"/>
+      <ellipse class="cls-1" cx="20.6" cy="8.89" rx="5.31" ry="2.42" transform="translate(-1.62 5.81) rotate(-15.45)"/>
+    </g>
+  </g>
+</svg>

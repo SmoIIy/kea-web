@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 96.39 43.88">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#New_Gradient_Swatch_copy_2);
+      }
+
+      .cls-4 {
+        letter-spacing: 0em;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #000;
+        stroke-miterlimit: 10;
+        stroke-width: .25px;
+      }
+
+      .cls-6 {
+        letter-spacing: .02em;
+      }
+
+      .cls-2 {
+        font-family: MyriadPro-Regular, 'Myriad Pro';
+        font-size: 21px;
+      }
+    </style>
+    <linearGradient id="New_Gradient_Swatch_copy_2" data-name="New Gradient Swatch copy 2" x1="29.18" y1="-11.82" x2="67.21" y2="55.7" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cc63f"/>
+      <stop offset=".49" stop-color="#39b54a"/>
+      <stop offset="1" stop-color="#006837"/>
+    </linearGradient>
+  </defs>
+  <g id="UI_elements" data-name="UI elements">
+    <rect class="cls-3" x="2.14" y="2.32" width="92.1" height="39.23" rx="2.6" ry="2.6"/>
+    <g id="Highlight">
+      <ellipse class="cls-1" cx="6.84" cy="9.61" rx="1.97" ry=".86" transform="translate(-4.57 6.65) rotate(-40.01)"/>
+      <ellipse class="cls-1" cx="12.09" cy="6.55" rx="2.88" ry="1.31" transform="translate(-1.31 3.46) rotate(-15.45)"/>
+    </g>
+    <path class="cls-5" d="m.12,2.37v39.14c0,1.24,1,2.24,2.24,2.24h91.65c1.24,0,2.24-1,2.24-2.24V2.37c0-1.24-1-2.24-2.24-2.24H2.37C1.13.12.12,1.13.12,2.37Zm91.73,39.36H4.54c-1.32,0-2.39-1.1-2.39-2.45V4.59c0-1.35,1.07-2.45,2.39-2.45h87.32c1.32,0,2.39,1.1,2.39,2.45v34.69c0,1.35-1.07,2.45-2.39,2.45Z"/>
+    <text class="cls-2" transform="translate(16.74 29.94)"><tspan class="cls-4" x="0" y="0">R</tspan><tspan x="11.38" y="0">esta</tspan><tspan class="cls-6" x="47.29" y="0">r</tspan><tspan x="54.66" y="0">t</tspan></text>
+  </g>
+</svg>

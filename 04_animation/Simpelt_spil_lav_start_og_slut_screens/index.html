@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="da">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simpelt spil lav start og slut screens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="screen">
+    <div id="game">
+      <div id="game_background"></div>
+      <div id="game_elements">
+        <div id="red_container1">
+          <div id="red_sprite1"></div>
+        </div>
+        <div id="red_container2">
+          <div id="red_sprite2"></div>
+        </div>
+        <div id="blue_container1">
+          <div id="blue_sprite1"></div>
+        </div>
+        <div id="blue_container2">
+          <div id="blue_sprite2"></div>
+        </div>
+        <div id="box1"></div>
+        <div id="box2"></div>
+        <div id="box3"></div>
+        <div id="box4"></div>
+        <div id="box5"></div>
+        <div id="box6"></div>
+      </div>
+      <div id="game_ui">
+        <div id="score_board"></div>
+        <div id="life_board">
+          <div id="heart"></div>
+          <div id="liv"></div>
+        </div>
+        <div id="time_board">
+          <div id="time_container">
+            <div id="time_sprite"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="start" class="">
+      <div id="start_txt">Klik på de røde, klik ikke på de blå</div>
+      <div id="start_knap">START</div>
+    </div>
+    <div id="game_over" class="">
+      <div id="game_over_txt">GAMEOVER</div>
+      <div id="game_over_points">Du fik ?? points</div>
+      <div id="genstart1">Prøv igen</div>
+    </div>
+    <div id="level_complete" class="">
+      <div id="level_complete_txt">TILLYKKE DU VANDT!</div>
+      <div id="level_complete_points">Du fik ?? points</div>
+      <div id="genstart2">En gang til</div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

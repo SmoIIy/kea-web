@@ -28,24 +28,68 @@
             <h1 id="score">Point: <span id="point">0</span></h1>
             <h1 id="life">Liv: <span id="liv">3</span></h1>
             <div id="time_container">
-                <div id="time_sprite" class="tid"></div>
+                <div id="time_sprite" class=""></div>
             </div>
             <div id="game_background">
 
             </div>
-            <div id="fisk_container" class="">
-                <div id="fisk_sprite" class="">
+            <div id="fisk_container_1" class="">
+                <div id="fisk_sprite_1" class="">
 
                 </div>
             </div>
-            <div id="skrald_container" class="">
-                <div id="skrald_sprite" class="">
+            <div id="fisk_container_2" class="">
+                <div id="fisk_sprite_2" class="">
 
                 </div>
             </div>
+            <div id="fisk_container_3" class="">
+                <div id="fisk_sprite_3" class="">
+
+                </div>
+            </div>
+            <div id="skrald_container_1" class="">
+                <div id="skrald_sprite_1" class="">
+
+                </div>
+            </div>
+            <div id="skrald_container_2" class="">
+                <div id="skrald_sprite_2" class="">
+
+                </div>
+            </div>
+            <div id="skrald_container_3" class="">
+                <div id="skrald_sprite_3" class="">
+
+                </div>
+            </div>
+            <div id="mellemgrund_container">
+                <div id="mellemgrund_sprite"></div>
+            </div>
+            <!--Start Skærm-->
+            <div id="start" class="">
+                <div id="start_sprite">
+                    <h1 style="position: absolute;">Start</h1>
+                    <div id="start_knap_1"></div>
+                    <div id="start_knap_2"></div>
+                </div>
+              </div>
+              <!--Game Over-->
+              <div id="game_over_lost" class="">
+                <h1 style="position: absolute;">TABER</h1>
+                <div id="start_knap_restart"></div>
+                <div id="start_knap_2"></div>
+              </div>
+              <!--Game Won-->
+              <div id="game_over_won" class="">
+                <h1 style="position: absolute;">VINDER</h1>
+                <div id="start_knap_restart"></div>
+                <div id="start_knap_2"></div>
+              </div>
         </div>
-        <button class="button1" onclick="testSpil()" type="button" id="test_button">Test</button>
-        <button class="button1" onclick="slukSpil()" type="button" id="sluk_button">Sluk</button>
+        
+        <button class="button1" onclick="startGame()" type="button" id="test_button">Test</button>
+        <button class="button1" onclick="setup()" type="button" id="sluk_button">Sluk</button>
     </main>
     <footer>
         

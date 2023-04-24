@@ -20,9 +20,24 @@ body {
     top: 5%;
     background-image: url(/sandboxspil/assets/baggrund1.svg);
     background-size: cover;
+    container-type: inline-size;
 }
 
-#fisk_container {
+#fisk_container_1 {
+    position: absolute;
+    aspect-ratio: 16/11;
+    width: 10%;
+    /*top: 5%;*/
+    /*left: 0%;*/
+}
+#fisk_container_2 {
+    position: absolute;
+    aspect-ratio: 16/11;
+    width: 10%;
+    /*top: 5%;*/
+    /*left: 0%;*/
+}
+#fisk_container_3 {
     position: absolute;
     aspect-ratio: 16/11;
     width: 10%;
@@ -30,14 +45,40 @@ body {
     /*left: 0%;*/
 }
 
-#fisk_sprite {
+#fisk_sprite_1 {
+    background-image: url(/sandboxspil/assets/fisk1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#fisk_sprite_2 {
+    background-image: url(/sandboxspil/assets/fisk1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#fisk_sprite_3 {
     background-image: url(/sandboxspil/assets/fisk1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 
-#skrald_container {
+#skrald_container_1 {
+    position: absolute;
+    aspect-ratio: 10/13;
+    width: 7%;
+    /*top: 5%;*/
+    /*left: 25%;*/
+}
+#skrald_container_2 {
+    position: absolute;
+    aspect-ratio: 10/13;
+    width: 7%;
+    /*top: 5%;*/
+    /*left: 25%;*/
+}
+#skrald_container_3 {
     position: absolute;
     aspect-ratio: 10/13;
     width: 7%;
@@ -45,7 +86,19 @@ body {
     /*left: 25%;*/
 }
 
-#skrald_sprite {
+#skrald_sprite_1 {
+    background-image: url(/sandboxspil/assets/skrald1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#skrald_sprite_2 {
+    background-image: url(/sandboxspil/assets/skrald1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#skrald_sprite_3 {
     background-image: url(/sandboxspil/assets/skrald1.svg);
     background-size: cover;
     width: 100%;
@@ -188,7 +241,9 @@ body {
     animation-play-state: paused;
   }
   
-
+.hide {
+    display: none;
+}
 
 .move_left {
     animation-name: move_left_ani;
@@ -222,4 +277,87 @@ body {
     to {
         transform: translate(0, 450%);
     }
+}
+/*Start skærm */
+#start {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(112, 149, 214, 0.8); 
+    z-index: 100;
+}
+#start_sprite {
+    position: absolute;
+    aspect-ratio: 4/4.2;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    background-image: url(/sandboxspil/assets/ui_background_1.svg);
+    -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+    box-shadow: 5px 5px 15px -9px #000000;
+}
+#start_knap_1 {
+    position: relative;
+    aspect-ratio: 20/9;
+    width: 35%;
+    top: 75%;
+    left: 10%;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(/sandboxspil/assets/greenbutton_start.svg);
+    background-size: cover;
+}
+#start_knap_2 {
+    position: relative;
+    aspect-ratio: 20/9;
+    cursor: pointer;
+    width: 35%;
+    top: 60%;
+    left: 55%;
+    text-align: center;
+    background-image: url(/sandboxspil/assets/redbutton_1.svg);
+    background-size: cover;
+}
+#game_over_won {
+    position: absolute;
+    aspect-ratio: 4/4.2;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    background-image: url(/sandboxspil/assets/gameover_1.svg);
+    -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+    box-shadow: 5px 5px 15px -9px #000000;
+}
+#start_knap_restart {
+    position: relative;
+    aspect-ratio: 20/9;
+    width: 35%;
+    top: 75%;
+    left: 10%;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(/sandboxspil/assets/greenbutton_restart.svg);
+    background-size: cover;
+}
+#game_over_lost {
+    position: absolute;
+    aspect-ratio: 4/4.2;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    background-image: url(/sandboxspil/assets/gameover_lost1.svg);
+    -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+    box-shadow: 5px 5px 15px -9px #000000;
+}
+#game_over_won {
+    position: absolute;
+    aspect-ratio: 4/4.2;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    background-image: url(/sandboxspil/assets/gameover_won1.svg);
+    -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+    box-shadow: 5px 5px 15px -9px #000000;
 }
