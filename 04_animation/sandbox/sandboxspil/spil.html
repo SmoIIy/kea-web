@@ -69,23 +69,24 @@
             <!--Start Skærm-->
             <div id="start" class="">
                 <div id="start_sprite">
-                    <h1 style="position: absolute;">Start</h1>
                     <div id="start_knap_1"></div>
-                    <div id="start_knap_2"></div>
+                    <div class="start_knap_2"></div>
                 </div>
               </div>
               <!--Game Over-->
-              <div id="game_over_lost" class="">
-                <h1 style="position: absolute;">TABER</h1>
-                <div id="start_knap_restart"></div>
-                <div id="start_knap_2"></div>
-              </div>
+              <div id="game_bg_lost">
+                <div id="game_over_lost" class="">
+                  <div class="start_knap_restart" id="start_knap_restart_lost"></div>
+                  <div class="start_knap_2"></div>
+                </div>
+            </div>  
               <!--Game Won-->
-              <div id="game_over_won" class="">
-                <h1 style="position: absolute;">VINDER</h1>
-                <div id="start_knap_restart"></div>
-                <div id="start_knap_2"></div>
-              </div>
+              <div id="game_bg_won">
+                <div id="game_over_won" class="">
+                  <div class="start_knap_restart" id="start_knap_restart_won"></div>
+                  <div class="start_knap_2"></div>
+                </div>
+              </div>  
         </div>
         
         <button class="button1" onclick="startGame()" type="button" id="test_button">Test</button>

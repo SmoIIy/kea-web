@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 416 296.42">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3, .cls-4 {
+        opacity: .51;
+      }
+
+      .cls-5 {
+        fill: url(#linear-gradient-4);
+        mix-blend-mode: multiply;
+      }
+
+      .cls-6, .cls-4, .cls-7 {
+        stroke: #000;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-8 {
+        fill: url(#New_Gradient_Swatch);
+      }
+
+      .cls-9 {
+        isolation: isolate;
+      }
+
+      .cls-10 {
+        opacity: .65;
+      }
+
+      .cls-4, .cls-7 {
+        fill: none;
+        stroke-linecap: round;
+      }
+
+      .cls-11 {
+        opacity: .49;
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-7 {
+        opacity: .5;
+        stroke-width: 2px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="187" y1="58.45" x2="187" y2="10.68" gradientTransform="translate(416) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7931e"/>
+      <stop offset="1" stop-color="#f15a24"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="171" y1="65.13" x2="171" y2="0" xlink:href="#linear-gradient"/>
+    <linearGradient id="New_Gradient_Swatch" data-name="New Gradient Swatch" x1="300.02" y1="9.1" x2="155.64" y2="259.17" gradientTransform="translate(416) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f7931e"/>
+      <stop offset="1" stop-color="#f15a24"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="163.75" y1="272.6" x2="163.75" y2="124.6" gradientTransform="translate(462.73 52.53) rotate(-172.81) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="164.65" y1="198.37" x2="33.53" y2="196.78" gradientTransform="translate(462.73 52.53) rotate(-172.81) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset=".02" stop-color="#fff5f5" stop-opacity=".04"/>
+      <stop offset=".11" stop-color="#ffbcbc" stop-opacity=".26"/>
+      <stop offset=".22" stop-color="#ff8a8a" stop-opacity=".46"/>
+      <stop offset=".32" stop-color="#ff5f5f" stop-opacity=".62"/>
+      <stop offset=".42" stop-color="#ff3d3d" stop-opacity=".76"/>
+      <stop offset=".53" stop-color="#f22" stop-opacity=".87"/>
+      <stop offset=".63" stop-color="#ff0f0f" stop-opacity=".94"/>
+      <stop offset=".74" stop-color="#ff0303" stop-opacity=".99"/>
+      <stop offset=".85" stop-color="red"/>
+    </linearGradient>
+  </defs>
+  <g class="cls-9">
+    <g id="Layer_2" data-name="Layer 2">
+      <g id="Fish">
+        <g id="Main">
+          <path class="cls-13" d="m202.43,10.9s33.81,21.5,19.33,47.55l34.74-5.79c-1.45-30.39-55-41.97-55-41.97"/>
+          <path class="cls-7" d="m231.5,22.61s6.5,6.46,8.5,20.46"/>
+          <path class="cls-1" d="m208.77.29s46.1,29.31,26.36,64.84l47.37-7.89C280.53,15.79,207.5,0,207.5,0"/>
+          <path class="cls-8" d="m73.63,156.73s133,181,342,5l-29.63-15.67,30-20s-48.56-66.09-133.12-79.57c-55.37-8.82-126.18,4.92-208.88,74.57L0,76.07v134.83s73.63-54.17,73.63-54.17Z"/>
+          <g>
+            <polygon class="cls-6" points="163 111.04 187 133.37 168 159.21 187 184.18 167 203.88 187 232.07 201 235.07 182 205.38 202 184.61 183 158.29 202 131.05 178 107.5 202 86.27 173 60.07 159 66.07 187 90.89 163 111.04"/>
+            <polygon class="cls-6" points="208 49.16 237 78.07 213 101.07 237 126.57 218 156.07 237 184.58 217 207.07 237 238.68 250 238.07 231.43 206.32 249 184.07 234 157.07 253 125.07 226 102.07 252 75.07 215 48.07 208 49.16"/>
+          </g>
+          <g>
+            <path class="cls-6" d="m53,171.07l-16.17-11.98,11.84-8.21-11.25-10.4,11.25-10.76-14.21-9.3,14.21-8.39-13.67-13.95.15.05c.32-.03.65.04.93.2l17.92,13.33-14.21,8.39,14.21,9.3-11.25,10.76,11.25,10.4-11.84,8.21,11.84,11.68-1,.67Z"/>
+            <path class="cls-6" d="m12,84.07l15.46,17.77c.26.24.26.66,0,.9l-13.23,11.87c-.26.23-.27.63-.02.88l13.39,13.32c.21.21.24.53.07.77l-10.72,15.58c-.14.21-.14.49,0,.69l10.71,15.04c.17.24.15.56-.05.77l-11.17,11.76c-.19.2-.22.51-.07.74l10.22,16.19c.29.45-.12,1.03-.64.91l-2.95,1.81c-.15-.03-2.91-3.88-3-4l-12.47-15.8c-.17-.24-.14-.57.07-.78l11.11-11.09c.21-.21.24-.55.06-.79l-10.66-14.2c-.16-.21-.16-.5,0-.72l10.67-14.71c.18-.25.15-.59-.07-.8l-13.33-12.57c-.26-.25-.25-.67.02-.9l13.16-11.2c.28-.24.28-.67.01-.91l-7.56-18.53c-.33-.29-2.4-3.82-2-4l1,1c.22-.1,1.82.84,2,1Z"/>
+          </g>
+          <circle class="cls-11" cx="338" cy="106.07" r="17.5"/>
+          <circle class="cls-2" cx="339" cy="106.07" r="17"/>
+          <ellipse class="cls-6" cx="346" cy="111.57" rx="9" ry="7.5" transform="translate(-15.78 147.33) rotate(-23.52)"/>
+          <g class="cls-3">
+            <path d="m273,188.07c.56,15.04-3.01,30.9-9.32,44.48-2.7,5.8,5.92,10.88,8.63,5.05,7.05-15.17,11.31-32.68,10.68-49.52-.24-6.42-10.24-6.45-10,0h0Z"/>
+          </g>
+          <path class="cls-12" d="m328.39,181.32s15.31,62.41-110.28,115.1c0,0,62.75-57.93,56.46-111.98s56.31-14.9,53.81-3.12Z"/>
+          <path class="cls-5" d="m328.39,181.32s15.31,62.41-110.28,115.1c0,0,62.75-57.93,56.46-111.98s56.31-14.9,53.81-3.12Z"/>
+        </g>
+        <g class="cls-10">
+          <path class="cls-2" d="m226.5,52.34c-28.91.63-58.75,12.56-83.02,27.4-5.48,3.35-.46,12.01,5.05,8.63,16.98-10.39,35.39-18.13,54.8-22.61,7.55-1.74,15.39-3.27,23.17-3.43,6.43-.14,6.45-10.14,0-10h0Z"/>
+        </g>
+        <g class="cls-10">
+          <path class="cls-2" d="m130.98,88.03c-10.93,6.66-21,15.01-30.51,23.5-4.81,4.3,2.28,11.35,7.07,7.07,8.9-7.95,18.27-15.71,28.49-21.94,5.49-3.34.47-11.99-5.05-8.63h0Z"/>
+        </g>
+        <line class="cls-4" x1="385" y1="147.07" x2="413" y2="162.07"/>
+      </g>
+    </g>
+  </g>
+</svg>

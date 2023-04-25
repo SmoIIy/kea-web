@@ -1,0 +1,596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 894.53 133.33">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#linear-gradient-2);
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient-17);
+      }
+
+      .cls-4 {
+        fill: url(#linear-gradient-43);
+      }
+
+      .cls-5 {
+        opacity: .5;
+      }
+
+      .cls-6 {
+        fill: url(#linear-gradient-15);
+      }
+
+      .cls-7 {
+        fill: url(#linear-gradient-18);
+      }
+
+      .cls-8 {
+        fill: url(#linear-gradient-40);
+      }
+
+      .cls-9 {
+        fill: url(#linear-gradient-28);
+      }
+
+      .cls-10 {
+        fill: url(#linear-gradient-14);
+      }
+
+      .cls-11 {
+        fill: url(#linear-gradient-36);
+      }
+
+      .cls-12 {
+        fill: url(#linear-gradient-20);
+      }
+
+      .cls-13 {
+        fill: url(#linear-gradient-6);
+      }
+
+      .cls-14 {
+        fill: url(#linear-gradient-35);
+      }
+
+      .cls-15 {
+        fill: url(#linear-gradient-48);
+      }
+
+      .cls-16 {
+        fill: url(#linear-gradient-32);
+      }
+
+      .cls-17 {
+        fill: url(#linear-gradient-11);
+      }
+
+      .cls-18 {
+        fill: url(#linear-gradient-39);
+      }
+
+      .cls-19 {
+        fill: url(#linear-gradient-10);
+      }
+
+      .cls-20 {
+        fill: url(#linear-gradient-37);
+      }
+
+      .cls-21 {
+        fill: url(#linear-gradient-16);
+      }
+
+      .cls-22 {
+        fill: url(#linear-gradient-31);
+      }
+
+      .cls-23 {
+        fill: url(#linear-gradient-41);
+      }
+
+      .cls-24 {
+        fill: url(#linear-gradient-21);
+      }
+
+      .cls-25 {
+        fill: url(#linear-gradient-25);
+      }
+
+      .cls-26 {
+        fill: url(#linear-gradient-5);
+      }
+
+      .cls-27 {
+        fill: url(#linear-gradient-45);
+      }
+
+      .cls-28 {
+        fill: url(#linear-gradient-34);
+      }
+
+      .cls-29 {
+        fill: url(#linear-gradient-7);
+      }
+
+      .cls-30 {
+        fill: url(#linear-gradient-24);
+      }
+
+      .cls-31 {
+        fill: url(#linear-gradient-9);
+      }
+
+      .cls-32 {
+        fill: url(#linear-gradient-22);
+      }
+
+      .cls-33 {
+        fill: url(#linear-gradient-42);
+      }
+
+      .cls-34 {
+        fill: url(#linear-gradient-3);
+      }
+
+      .cls-35 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-36 {
+        fill: url(#linear-gradient-27);
+      }
+
+      .cls-37 {
+        fill: url(#linear-gradient-33);
+      }
+
+      .cls-38 {
+        fill: url(#linear-gradient-38);
+      }
+
+      .cls-39 {
+        fill: url(#linear-gradient-29);
+      }
+
+      .cls-40 {
+        fill: url(#linear-gradient-30);
+      }
+
+      .cls-41 {
+        fill: url(#linear-gradient-23);
+      }
+
+      .cls-42 {
+        fill: url(#linear-gradient-19);
+      }
+
+      .cls-43 {
+        fill: url(#linear-gradient-4);
+      }
+
+      .cls-44 {
+        fill: url(#linear-gradient-8);
+      }
+
+      .cls-45 {
+        fill: url(#linear-gradient-44);
+      }
+
+      .cls-46 {
+        fill: url(#linear-gradient-47);
+      }
+
+      .cls-47 {
+        fill: url(#linear-gradient-46);
+      }
+
+      .cls-48 {
+        fill: url(#linear-gradient-12);
+      }
+
+      .cls-49 {
+        fill: url(#linear-gradient-13);
+      }
+
+      .cls-50 {
+        fill: url(#linear-gradient-26);
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="1178.01" y1="6" x2="1178.01" y2="123.87" gradientTransform="translate(2053.03) rotate(-180) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8cc63f"/>
+      <stop offset=".49" stop-color="#39b54a"/>
+      <stop offset="1" stop-color="#006837"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1294.32" y1="7.82" x2="1294.32" y2="125.69" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-3" x1="835.59" y1="18.63" x2="835.59" y2="128.96" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-4" x1="799" y1="25.04" x2="799" y2="126.42" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-5" x1="1230.71" y1="7.82" x2="1230.71" y2="125.69" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-6" x1="782.89" y1="20.44" x2="782.89" y2="130.78" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-7" x1="746.29" y1="26.85" x2="746.29" y2="128.23" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-8" x1="1314.45" y1="8.55" x2="1314.45" y2="126.42" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-9" x1="1430.76" y1="10.37" x2="1430.76" y2="128.24" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-10" x1="699.15" y1="21.18" x2="699.15" y2="131.51" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-11" x1="662.56" y1="27.59" x2="662.56" y2="128.97" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-12" x1="1367.16" y1="10.37" x2="1367.16" y2="128.24" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-13" x1="646.45" y1="22.99" x2="646.45" y2="133.33" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-14" x1="609.85" y1="29.4" x2="609.85" y2="130.78" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-15" x1="1446.01" y1="3" x2="1446.01" y2="120.87" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-16" x1="723.32" y1="4.82" x2="723.32" y2="122.69" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-17" x1="1406.59" y1="15.63" x2="1406.59" y2="125.96" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-18" x1="1370" y1="22.04" x2="1370" y2="123.42" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-19" x1="659.71" y1="4.82" x2="659.71" y2="122.69" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-20" x1="1353.89" y1="17.44" x2="1353.89" y2="127.78" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-21" x1="1317.29" y1="23.85" x2="1317.29" y2="125.23" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-22" x1="743.45" y1="5.55" x2="743.45" y2="123.42" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-23" x1="859.76" y1="7.37" x2="859.76" y2="125.24" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-24" x1="1270.15" y1="18.18" x2="1270.15" y2="128.51" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-25" x1="1233.56" y1="24.59" x2="1233.56" y2="125.97" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-26" x1="796.16" y1="7.37" x2="796.16" y2="125.24" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-27" x1="1217.45" y1="19.99" x2="1217.45" y2="130.33" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-28" x1="1180.85" y1="26.4" x2="1180.85" y2="127.78" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-29" x1="1770.76" y1="7.37" x2="1770.76" y2="125.24" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-30" x1="359.15" y1="18.18" x2="359.15" y2="128.51" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-31" x1="322.56" y1="24.59" x2="322.56" y2="125.97" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-32" x1="1707.16" y1="7.37" x2="1707.16" y2="125.24" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-33" x1="306.45" y1="19.99" x2="306.45" y2="130.33" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-34" x1="269.85" y1="26.4" x2="269.85" y2="127.78" gradientTransform="matrix(1,0,0,1,0,0)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-35" x1="1786.01" y1="0" x2="1786.01" y2="117.87" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-36" x1="383.32" y1="1.82" x2="383.32" y2="119.69" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-37" x1="1746.59" y1="12.63" x2="1746.59" y2="122.96" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-38" x1="1710" y1="19.04" x2="1710" y2="120.42" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-39" x1="319.71" y1="1.82" x2="319.71" y2="119.69" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-40" x1="1693.89" y1="14.44" x2="1693.89" y2="124.78" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-41" x1="1657.29" y1="20.85" x2="1657.29" y2="122.23" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-42" x1="403.45" y1="2.55" x2="403.45" y2="120.42" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-43" x1="519.76" y1="4.37" x2="519.76" y2="122.24" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-44" x1="1610.15" y1="15.18" x2="1610.15" y2="125.51" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-45" x1="1573.56" y1="21.59" x2="1573.56" y2="122.97" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-46" x1="456.16" y1="4.37" x2="456.16" y2="122.24" gradientTransform="translate(-289.57)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-47" x1="1557.45" y1="16.99" x2="1557.45" y2="127.33" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+    <linearGradient id="linear-gradient-48" x1="1520.85" y1="23.4" x2="1520.85" y2="124.78" gradientTransform="translate(1763.46) rotate(-180) scale(1 -1)" xlink:href="#linear-gradient"/>
+  </defs>
+  <g id="Plants">
+    <g id="_1" data-name="1">
+      <path class="cls-35" d="m882.11,115.39s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="860.8" cy="11.42" rx=".57" ry="1.32" transform="translate(556.27 816.64) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="864.35" cy="13.44" rx=".88" ry="1.93" transform="translate(248.76 620.34) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_1-2" data-name="1">
+      <path class="cls-1" d="m765.79,117.21s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-2" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="744.49" cy="13.24" rx=".57" ry="1.32" transform="translate(477.95 708.5) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="748.03" cy="15.26" rx=".88" ry="1.93" transform="translate(212.7 537.94) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_2" data-name="2">
+      <path class="cls-34" d="m827.59,120.48s10.9-5.09,8.36-21.81c-2.54-16.72-25.81-33.44-13.81-49.07s.36-15.27,21.81-27.62c21.45-12.36-4.36,13.45-4.36,13.45,0,0-12.36,7.27-9.81,23.63,2.54,16.36,11.63,27.26,11.63,27.26,0,0,17.81,25.08-2.18,37.8s-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-3" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="844.01" cy="25.03" rx="1.32" ry=".57" transform="translate(283.27 656.35) rotate(-50.09)"/>
+        <ellipse class="cls-2" cx="847.12" cy="22.39" rx="1.93" ry=".88" transform="translate(73.04 367.24) rotate(-25.53)"/>
+      </g>
+    </g>
+    <g id="_3" data-name="3">
+      <path class="cls-43" d="m792.33,117.94s14.54,1.45,11.99-15.27-19.26-4-7.27-19.63-30.17-16.36-8.72-28.72c12.64-7.28-2.48-26.58.58-29.26,1.26-1.1,13.56,27.63,13.96,29.26,2.71,11.17.09,15.3,2.18,28.72,2.54,16.36,7.63,17.81,7.63,17.81,0,0,11.27,8-8.72,20.72s-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-4" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="790.27" cy="29.04" rx=".42" ry=".97" transform="translate(92.2 400.62) rotate(-30.13)"/>
+        <ellipse class="cls-2" cx="791.31" cy="31.84" rx=".64" ry="1.41" transform="translate(.65 76.96) rotate(-5.57)"/>
+      </g>
+    </g>
+    <g id="_1-3" data-name="1">
+      <path class="cls-26" d="m829.4,117.21s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-5" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="808.1" cy="13.24" rx=".57" ry="1.32" transform="translate(519.85 768.29) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="811.64" cy="15.26" rx=".88" ry="1.93" transform="translate(231.71 583.3) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_2-2" data-name="2">
+      <path class="cls-13" d="m774.88,122.3s10.9-5.09,8.36-21.81-25.81-33.44-13.81-49.07.36-15.27,21.81-27.62-4.36,13.45-4.36,13.45c0,0-12.36,7.27-9.81,23.63s11.63,27.26,11.63,27.26c0,0,17.81,25.08-2.18,37.8-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-6" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="791.31" cy="26.85" rx="1.32" ry=".57" transform="translate(262.99 616.57) rotate(-50.09)"/>
+        <ellipse class="cls-2" cx="794.42" cy="24.21" rx="1.93" ry=".88" transform="translate(67.12 344.71) rotate(-25.53)"/>
+      </g>
+    </g>
+    <g id="_3-2" data-name="3">
+      <path class="cls-29" d="m739.62,119.75s14.54,1.45,11.99-15.27-19.26-4-7.27-19.63c11.99-15.63-30.17-16.36-8.72-28.72,12.64-7.28-2.48-26.58.58-29.26,1.26-1.1,13.56,27.63,13.96,29.26,2.71,11.17.09,15.3,2.18,28.72,2.54,16.36,7.63,17.81,7.63,17.81,0,0,11.27,8-8.72,20.72-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-7" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="737.57" cy="30.86" rx=".42" ry=".97" transform="translate(84.16 374.4) rotate(-30.13)"/>
+        <ellipse class="cls-2" cx="738.61" cy="33.66" rx=".64" ry="1.41" transform="translate(.22 71.85) rotate(-5.57)"/>
+      </g>
+    </g>
+    <g id="_1-4" data-name="1">
+      <path class="cls-44" d="m745.67,117.94s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-8" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="724.36" cy="13.97" rx=".57" ry="1.32" transform="translate(464 690.07) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="727.91" cy="15.99" rx=".88" ry="1.93" transform="translate(206.16 523.81) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_1-5" data-name="1">
+      <path class="cls-31" d="m629.35,119.76s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-9" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="608.05" cy="15.79" rx=".57" ry="1.32" transform="translate(385.68 581.94) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="611.59" cy="17.81" rx=".88" ry="1.93" transform="translate(170.1 441.42) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_2-3" data-name="2">
+      <path class="cls-19" d="m691.15,123.03s10.9-5.09,8.36-21.81-25.81-33.44-13.81-49.07c11.99-15.63.36-15.27,21.81-27.62,21.45-12.36-4.36,13.45-4.36,13.45,0,0-12.36,7.27-9.81,23.63s11.63,27.26,11.63,27.26c0,0,17.81,25.08-2.18,37.8-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-10" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="707.57" cy="27.58" rx="1.32" ry=".57" transform="translate(232.42 552.61) rotate(-50.09)"/>
+        <ellipse class="cls-2" cx="710.68" cy="24.94" rx="1.93" ry=".88" transform="translate(58.63 308.69) rotate(-25.53)"/>
+      </g>
+    </g>
+    <g id="_3-3" data-name="3">
+      <path class="cls-17" d="m655.89,120.49s14.54,1.45,11.99-15.27-19.26-4-7.27-19.63c11.99-15.63-30.17-16.36-8.72-28.72,12.64-7.28-2.48-26.58.58-29.26,1.26-1.1,13.56,27.63,13.96,29.26,2.71,11.17.09,15.3,2.18,28.72,2.54,16.36,7.63,17.81,7.63,17.81,0,0,11.27,8-8.72,20.72-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-11" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="653.83" cy="31.59" rx=".42" ry=".97" transform="translate(72.48 332.47) rotate(-30.13)"/>
+        <ellipse class="cls-2" cx="654.87" cy="34.39" rx=".64" ry="1.41" transform="translate(-.25 63.73) rotate(-5.57)"/>
+      </g>
+    </g>
+    <g id="_1-6" data-name="1">
+      <path class="cls-48" d="m692.96,119.76s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8s-7.27-39.62-28.72-51.98c-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-12" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="671.66" cy="15.79" rx=".57" ry="1.32" transform="translate(427.58 641.73) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="675.2" cy="17.81" rx=".88" ry="1.93" transform="translate(189.11 486.78) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_2-4" data-name="2">
+      <path class="cls-49" d="m638.44,124.85s10.9-5.09,8.36-21.81-25.81-33.44-13.81-49.07c11.99-15.63.36-15.27,21.81-27.62,21.45-12.36-4.36,13.45-4.36,13.45,0,0-12.36,7.27-9.81,23.63s11.63,27.26,11.63,27.26c0,0,17.81,25.08-2.18,37.8-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-13" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="654.87" cy="29.4" rx="1.32" ry=".57" transform="translate(212.14 512.83) rotate(-50.09)"/>
+        <ellipse class="cls-2" cx="657.98" cy="26.76" rx="1.93" ry=".88" transform="translate(52.7 286.16) rotate(-25.53)"/>
+      </g>
+    </g>
+    <g id="_3-4" data-name="3">
+      <path class="cls-10" d="m603.18,122.3s14.54,1.45,11.99-15.27-19.26-4-7.27-19.63-30.17-16.36-8.72-28.72c12.64-7.28-2.48-26.58.58-29.26,1.26-1.1,13.56,27.63,13.96,29.26,2.71,11.17.09,15.3,2.18,28.72,2.54,16.36,7.63,17.81,7.63,17.81,0,0,11.27,8-8.72,20.72s-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-14" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="601.13" cy="33.41" rx=".42" ry=".97" transform="translate(64.45 306.26) rotate(-30.13)"/>
+        <ellipse class="cls-2" cx="602.16" cy="36.21" rx=".64" ry="1.41" transform="translate(-.67 58.62) rotate(-5.57)"/>
+      </g>
+    </g>
+    <g id="_1-7" data-name="1">
+      <path class="cls-6" d="m614.11,112.39s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-15" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="592.8" cy="8.42" rx=".57" ry="1.32" transform="translate(382.56 562.75) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="596.35" cy="10.44" rx=".88" ry="1.93" transform="translate(170.79 428.35) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_1-8" data-name="1">
+      <path class="cls-21" d="m426.67,114.21s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8,11.99-15.63,7.27-39.62,28.72-51.98,21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-16" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="447.97" cy="10.24" rx="1.32" ry=".57" transform="translate(23.41 153.51) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="444.43" cy="12.26" rx="1.93" ry=".88" transform="translate(118.93 315.11) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-5" data-name="2">
+      <path class="cls-3" d="m364.88,117.48s-10.9-5.09-8.36-21.81c2.54-16.72,25.81-33.44,13.81-49.07s-.36-15.27-21.81-27.62c-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63-2.54,16.36-11.63,27.26-11.63,27.26,0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-17" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="348.45" cy="22.03" rx=".57" ry="1.32" transform="translate(67.04 228.71) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="345.34" cy="19.39" rx=".88" ry="1.93" transform="translate(179.02 322.67) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-5" data-name="3">
+      <path class="cls-7" d="m400.13,114.94s-14.54,1.45-11.99-15.27,19.26-4,7.27-19.63c-11.99-15.63,30.17-16.36,8.72-28.72-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-18" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="402.19" cy="26.04" rx=".97" ry=".42" transform="translate(177.78 360.82) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="401.15" cy="28.84" rx="1.41" ry=".64" transform="translate(333.51 425.3) rotate(-84.43)"/>
+      </g>
+    </g>
+    <g id="_1-9" data-name="1">
+      <path class="cls-42" d="m363.06,114.21s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8,11.99-15.63,7.27-39.62,28.72-51.98,21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-19" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="384.36" cy="10.24" rx="1.32" ry=".57" transform="translate(19.59 131.8) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="380.82" cy="12.26" rx="1.93" ry=".88" transform="translate(100.68 270.52) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-6" data-name="2">
+      <path class="cls-12" d="m417.58,119.3s-10.9-5.09-8.36-21.81,25.81-33.44,13.81-49.07-.36-15.27-21.81-27.62c-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63s-11.63,27.26-11.63,27.26c0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-20" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="401.15" cy="23.85" rx=".57" ry="1.32" transform="translate(78.16 262.95) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="398.05" cy="21.21" rx=".88" ry="1.93" transform="translate(207.37 371.26) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-6" data-name="3">
+      <path class="cls-24" d="m452.84,116.75s-14.54,1.45-11.99-15.27c2.54-16.72,19.26-4,7.27-19.63-11.99-15.63,30.17-16.36,8.72-28.72-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-21" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="454.9" cy="27.86" rx=".97" ry=".42" transform="translate(202.46 407.31) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="453.86" cy="30.66" rx="1.41" ry=".64" transform="translate(379.29 479.4) rotate(-84.43)"/>
+      </g>
+    </g>
+    <g id="_1-10" data-name="1">
+      <path class="cls-32" d="m446.8,114.94s16.36,4,13.81-12.72-35.62-26.17-23.63-41.8c11.99-15.63,7.27-39.62,28.72-51.98s-8.72,18.9-8.72,18.9c0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-22" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="468.1" cy="10.97" rx="1.32" ry=".57" transform="translate(24.36 160.42) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="464.56" cy="12.99" rx="1.93" ry=".88" transform="translate(124.2 329.43) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_1-11" data-name="1">
+      <path class="cls-41" d="m563.11,116.76s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8,11.99-15.63,7.27-39.62,28.72-51.98,21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-23" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="584.41" cy="12.79" rx="1.32" ry=".57" transform="translate(30.73 200.23) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="580.87" cy="14.81" rx="1.93" ry=".88" transform="translate(156.3 411.51) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-7" data-name="2">
+      <path class="cls-30" d="m501.32,120.03s-10.9-5.09-8.36-21.81,25.81-33.44,13.81-49.07-.36-15.27-21.81-27.62c-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63s-11.63,27.26-11.63,27.26c0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-24" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="484.89" cy="24.58" rx=".57" ry="1.32" transform="translate(97.2 316.85) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="481.78" cy="21.94" rx=".88" ry="1.93" transform="translate(254.36 447.24) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-7" data-name="3">
+      <path class="cls-25" d="m536.57,117.49s-14.54,1.45-11.99-15.27c2.54-16.72,19.26-4,7.27-19.63-11.99-15.63,30.17-16.36,8.72-28.72-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-25" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="538.63" cy="28.59" rx=".97" ry=".42" transform="translate(243.52 480.1) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="537.59" cy="31.39" rx="1.41" ry=".64" transform="translate(454.17 563.4) rotate(-84.43)"/>
+      </g>
+    </g>
+    <g id="_1-12" data-name="1">
+      <path class="cls-50" d="m499.5,116.76s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8s7.27-39.62,28.72-51.98c21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-26" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="520.8" cy="12.79" rx="1.32" ry=".57" transform="translate(26.91 178.52) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="517.26" cy="14.81" rx="1.93" ry=".88" transform="translate(138.05 366.91) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-8" data-name="2">
+      <path class="cls-36" d="m554.02,121.85s-10.9-5.09-8.36-21.81,25.81-33.44,13.81-49.07c-11.99-15.63-.36-15.27-21.81-27.62-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63s-11.63,27.26-11.63,27.26c0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-27" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="537.6" cy="26.4" rx=".57" ry="1.32" transform="translate(108.31 351.09) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="534.49" cy="23.76" rx=".88" ry="1.93" transform="translate(282.71 495.83) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-8" data-name="3">
+      <path class="cls-9" d="m589.28,119.3s-14.54,1.45-11.99-15.27c2.54-16.72,19.26-4,7.27-19.63s30.17-16.36,8.72-28.72c-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72s11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-28" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="591.34" cy="30.41" rx=".97" ry=".42" transform="translate(268.2 526.59) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="590.3" cy="33.21" rx="1.41" ry=".64" transform="translate(499.95 617.5) rotate(-84.43)"/>
+      </g>
+    </g>
+    <g id="_1-13" data-name="1">
+      <path class="cls-39" d="m289.35,116.76s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-29" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="268.05" cy="12.79" rx=".57" ry="1.32" transform="translate(164.54 260.38) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="271.59" cy="14.81" rx=".88" ry="1.93" transform="translate(70.62 198.09) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_2-9" data-name="2">
+      <path class="cls-40" d="m351.15,120.03s10.9-5.09,8.36-21.81-25.81-33.44-13.81-49.07c11.99-15.63.36-15.27,21.81-27.62,21.45-12.36-4.36,13.45-4.36,13.45,0,0-12.36,7.27-9.81,23.63s11.63,27.26,11.63,27.26c0,0,17.81,25.08-2.18,37.8-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-30" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="367.57" cy="24.58" rx="1.32" ry=".57" transform="translate(112.87 290.75) rotate(-50.09)"/>
+        <ellipse class="cls-2" cx="370.68" cy="21.94" rx="1.93" ry=".88" transform="translate(26.73 161.88) rotate(-25.53)"/>
+      </g>
+    </g>
+    <g id="_3-9" data-name="3">
+      <path class="cls-22" d="m315.89,117.49s14.54,1.45,11.99-15.27-19.26-4-7.27-19.63c11.99-15.63-30.17-16.36-8.72-28.72,12.64-7.28-2.48-26.58.58-29.26,1.26-1.1,13.56,27.63,13.96,29.26,2.71,11.17.09,15.3,2.18,28.72,2.54,16.36,7.63,17.81,7.63,17.81,0,0,11.27,8-8.72,20.72-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-31" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="313.83" cy="28.59" rx=".42" ry=".97" transform="translate(28.05 161.4) rotate(-30.13)"/>
+        <ellipse class="cls-2" cx="314.87" cy="31.39" rx=".64" ry="1.41" transform="translate(-1.56 30.71) rotate(-5.57)"/>
+      </g>
+    </g>
+    <g id="_1-14" data-name="1">
+      <path class="cls-16" d="m352.96,116.76s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8s-7.27-39.62-28.72-51.98c-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-32" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="331.66" cy="12.79" rx=".57" ry="1.32" transform="translate(206.44 320.17) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="335.2" cy="14.81" rx=".88" ry="1.93" transform="translate(89.63 243.44) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_2-10" data-name="2">
+      <path class="cls-37" d="m298.44,121.85s10.9-5.09,8.36-21.81-25.81-33.44-13.81-49.07c11.99-15.63.36-15.27,21.81-27.62,21.45-12.36-4.36,13.45-4.36,13.45,0,0-12.36,7.27-9.81,23.63s11.63,27.26,11.63,27.26c0,0,17.81,25.08-2.18,37.8-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-33" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="314.87" cy="26.4" rx="1.32" ry=".57" transform="translate(92.59 250.97) rotate(-50.09)"/>
+        <ellipse class="cls-2" cx="317.98" cy="23.76" rx="1.93" ry=".88" transform="translate(20.8 139.35) rotate(-25.53)"/>
+      </g>
+    </g>
+    <g id="_3-10" data-name="3">
+      <path class="cls-28" d="m263.18,119.3s14.54,1.45,11.99-15.27-19.26-4-7.27-19.63-30.17-16.36-8.72-28.72c12.64-7.28-2.48-26.58.58-29.26,1.26-1.1,13.56,27.63,13.96,29.26,2.71,11.17.09,15.3,2.18,28.72,2.54,16.36,7.63,17.81,7.63,17.81,0,0,11.27,8-8.72,20.72s-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-34" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="261.13" cy="30.41" rx=".42" ry=".97" transform="translate(20.02 135.19) rotate(-30.13)"/>
+        <ellipse class="cls-2" cx="262.16" cy="33.21" rx=".64" ry="1.41" transform="translate(-1.99 25.6) rotate(-5.57)"/>
+      </g>
+    </g>
+    <g id="_1-15" data-name="1">
+      <path class="cls-14" d="m274.11,109.39s-16.36,4-13.81-12.72c2.54-16.72,35.62-26.17,23.63-41.8-11.99-15.63-7.27-39.62-28.72-51.98-21.45-12.36,8.72,18.9,8.72,18.9,0,0,10.9,19.99,8.36,36.35-1.84,11.86-7.32,4.61-10.19-.27-.75-1.27-2.65-1.07-3.11.33-3.72,11.15-13.05,44.3,3.49,54.82,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-35" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="252.8" cy="5.42" rx=".57" ry="1.32" transform="translate(161.43 241.19) rotate(-70.04)"/>
+        <ellipse class="cls-2" cx="256.35" cy="7.44" rx=".88" ry="1.93" transform="translate(71.31 185.01) rotate(-45.48)"/>
+      </g>
+    </g>
+    <g id="_1-16" data-name="1">
+      <path class="cls-11" d="m86.67,111.21s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8,11.99-15.63,7.27-39.62,28.72-51.98,21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-36" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="107.97" cy="7.24" rx="1.32" ry=".57" transform="translate(4.01 37.29) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="104.43" cy="9.26" rx="1.93" ry=".88" transform="translate(23.47 75.87) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-11" data-name="2">
+      <path class="cls-20" d="m24.88,114.48s-10.9-5.09-8.36-21.81c2.54-16.72,25.81-33.44,13.81-49.07s-.36-15.27-21.81-27.62c-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63-2.54,16.36-11.63,27.26-11.63,27.26,0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-37" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="8.45" cy="19.03" rx=".57" ry="1.32" transform="translate(-10.24 9.86) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="5.34" cy="16.39" rx=".88" ry="1.93" transform="translate(-11.75 14.15) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-11" data-name="3">
+      <path class="cls-38" d="m60.13,111.94s-14.54,1.45-11.99-15.27,19.26-4,7.27-19.63c-11.99-15.63,30.17-16.36,8.72-28.72-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-38" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="62.19" cy="23.04" rx=".97" ry=".42" transform="translate(11.04 65.27) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="61.15" cy="25.84" rx="1.41" ry=".64" transform="translate(29.5 84.2) rotate(-84.43)"/>
+      </g>
+    </g>
+    <g id="_1-17" data-name="1">
+      <path class="cls-18" d="m23.06,111.21s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8,11.99-15.63,7.27-39.62,28.72-51.98,21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-39" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="44.36" cy="7.24" rx="1.32" ry=".57" transform="translate(.19 15.58) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="40.82" cy="9.26" rx="1.93" ry=".88" transform="translate(5.22 31.28) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-12" data-name="2">
+      <path class="cls-8" d="m77.58,116.3s-10.9-5.09-8.36-21.81,25.81-33.44,13.81-49.07-.36-15.27-21.81-27.62c-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63s-11.63,27.26-11.63,27.26c0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-40" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="61.15" cy="20.85" rx=".57" ry="1.32" transform="translate(.87 44.1) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="58.05" cy="18.21" rx=".88" ry="1.93" transform="translate(16.6 62.74) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-12" data-name="3">
+      <path class="cls-23" d="m112.84,113.75s-14.54,1.45-11.99-15.27c2.54-16.72,19.26-4,7.27-19.63-11.99-15.63,30.17-16.36,8.72-28.72-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-41" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="114.9" cy="24.86" rx=".97" ry=".42" transform="translate(35.72 111.76) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="113.86" cy="27.66" rx="1.41" ry=".64" transform="translate(75.28 138.29) rotate(-84.43)"/>
+      </g>
+    </g>
+    <g id="_1-18" data-name="1">
+      <path class="cls-33" d="m106.8,111.94s16.36,4,13.81-12.72-35.62-26.17-23.63-41.8c11.99-15.63,7.27-39.62,28.72-51.98s-8.72,18.9-8.72,18.9c0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-42" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="128.1" cy="7.97" rx="1.32" ry=".57" transform="translate(4.97 44.2) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="124.56" cy="9.99" rx="1.93" ry=".88" transform="translate(28.74 90.19) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_1-19" data-name="1">
+      <path class="cls-4" d="m223.11,113.76s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8,11.99-15.63,7.27-39.62,28.72-51.98,21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-43" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="244.41" cy="9.79" rx="1.32" ry=".57" transform="translate(11.34 84.01) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="240.87" cy="11.81" rx="1.93" ry=".88" transform="translate(60.84 172.27) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-13" data-name="2">
+      <path class="cls-45" d="m161.32,117.03s-10.9-5.09-8.36-21.81,25.81-33.44,13.81-49.07-.36-15.27-21.81-27.62c-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63s-11.63,27.26-11.63,27.26c0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-44" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="144.89" cy="21.58" rx=".57" ry="1.32" transform="translate(19.91 97.99) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="141.78" cy="18.94" rx=".88" ry="1.93" transform="translate(63.59 138.72) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-13" data-name="3">
+      <path class="cls-27" d="m196.57,114.49s-14.54,1.45-11.99-15.27c2.54-16.72,19.26-4,7.27-19.63-11.99-15.63,30.17-16.36,8.72-28.72-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-45" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="198.63" cy="25.59" rx=".97" ry=".42" transform="translate(76.79 184.54) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="197.59" cy="28.39" rx="1.41" ry=".64" transform="translate(150.15 222.3) rotate(-84.43)"/>
+      </g>
+    </g>
+    <g id="_1-20" data-name="1">
+      <path class="cls-47" d="m159.5,113.76s16.36,4,13.81-12.72c-2.54-16.72-35.62-26.17-23.63-41.8s7.27-39.62,28.72-51.98c21.45-12.36-8.72,18.9-8.72,18.9,0,0-10.9,19.99-8.36,36.35,1.84,11.86,7.32,4.61,10.19-.27.75-1.27,2.65-1.07,3.11.33,3.72,11.15,13.05,44.3-3.49,54.82-19.99,12.72-11.63-3.63-11.63-3.63Z"/>
+      <g id="Highlight-46" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="180.8" cy="9.79" rx="1.32" ry=".57" transform="translate(7.52 62.3) rotate(-19.96)"/>
+        <ellipse class="cls-2" cx="177.26" cy="11.81" rx="1.93" ry=".88" transform="translate(42.59 127.67) rotate(-44.52)"/>
+      </g>
+    </g>
+    <g id="_2-14" data-name="2">
+      <path class="cls-46" d="m214.02,118.85s-10.9-5.09-8.36-21.81,25.81-33.44,13.81-49.07c-11.99-15.63-.36-15.27-21.81-27.62-21.45-12.36,4.36,13.45,4.36,13.45,0,0,12.36,7.27,9.81,23.63s-11.63,27.26-11.63,27.26c0,0-17.81,25.08,2.18,37.8,19.99,12.72,11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-47" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="197.6" cy="23.4" rx=".57" ry="1.32" transform="translate(31.02 132.23) rotate(-39.91)"/>
+        <ellipse class="cls-2" cx="194.49" cy="20.76" rx=".88" ry="1.93" transform="translate(91.94 187.31) rotate(-64.47)"/>
+      </g>
+    </g>
+    <g id="_3-14" data-name="3">
+      <path class="cls-15" d="m249.28,116.3s-14.54,1.45-11.99-15.27c2.54-16.72,19.26-4,7.27-19.63s30.17-16.36,8.72-28.72c-12.64-7.28,2.48-26.58-.58-29.26-1.26-1.1-13.56,27.63-13.96,29.26-2.71,11.17-.09,15.3-2.18,28.72-2.54,16.36-7.63,17.81-7.63,17.81,0,0-11.27,8,8.72,20.72s11.63-3.63,11.63-3.63Z"/>
+      <g id="Highlight-48" data-name="Highlight" class="cls-5">
+        <ellipse class="cls-2" cx="251.34" cy="27.41" rx=".97" ry=".42" transform="translate(101.47 231.03) rotate(-59.87)"/>
+        <ellipse class="cls-2" cx="250.3" cy="30.21" rx="1.41" ry=".64" transform="translate(195.94 276.39) rotate(-84.43)"/>
+      </g>
+    </g>
+  </g>
+</svg>

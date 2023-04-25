@@ -26,13 +26,6 @@ let liv;
 const timeEnd = document.querySelector("#time_sprite");
 timeEnd.addEventListener("animationend", gameEnd);
 
-function gameEnd(){    
-    if (_point => 15){
-        stopGameWin();
-    } else {
-        stopGameLost();
-    }
-}
 
 
 
@@ -41,14 +34,18 @@ const start_knap_1 = document.querySelector("#start_knap_1");
 const start_knap_2 = document.querySelector("#start_knap_2");
 const start_screen = document.querySelector("#start");
 //Lost screen
-const start_restart = document.querySelector("#start_knap_restart");
-const lost_game = document.querySelector("#game_over_lost");
+const start_restart_lost = document.querySelector("#start_knap_restart_lost");
+const lost_game = document.querySelector("#game_bg_lost");
 //Won screen
-const won_game = document.querySelector("#game_over_won");
+const start_restart_won = document.querySelector("#start_knap_restart_won");
+const won_game = document.querySelector("#game_bg_won");
 //TO DO
-//Refaktor random
-let randomPositionFisk = Math.floor(Math.random() * 5) + 1;
-let randomPositionSkrald = Math.floor(Math.random() * 10) + 1;
+//RNG
+function nytRand(max) {
+    return Math.floor(Math.random() * max) + 1;
+}
+
+  
 
 
 window.addEventListener("load", setup);
@@ -65,8 +62,8 @@ function setup() {
     timeContainer.classList.add("hide");
     life.classList.add("hide");
     score.classList.add("hide");
-    game_over_lost.classList.add("hide");
-    game_over_won.classList.add("hide");
+    lost_game.classList.add("hide");
+    won_game.classList.add("hide");
     start_knap_1.addEventListener("click", startGame);
     start_screen.classList = "";
 }
@@ -77,19 +74,19 @@ function startGame() {
     //Remove "hide"
     liv = 3;
     point = 0;
+    document.querySelector("#liv").innerHTML = liv;
+    document.querySelector("#point").innerHTML = point;
     for (i in alleFisk){
-        let randomPositionFisk = Math.floor(Math.random() * 5) + 1;
         alleFisk[i].classList.remove("hide");
         alleFisk[i].addEventListener("mousedown", clickFiskhandler);
         alleFisk[i].addEventListener("animationiteration", fiskReset);
-        alleFisk[i].classList.add("move_right", "fisk_pos_" + randomPositionFisk);
+        alleFisk[i].classList.add("move_right", "fisk_pos_" + nytRand(5));
     }
     for (i in alleSkrald){
-        let randomPositionSkrald = Math.floor(Math.random() * 10) + 1;
         alleSkrald[i].classList.remove("hide");
         alleSkrald[i].addEventListener("mousedown", clickSkraldhandler);
         alleSkrald[i].addEventListener("animationiteration", skraldReset);
-        alleSkrald[i].classList.add("move_down", "skrald_pos_" + randomPositionSkrald);
+        alleSkrald[i].classList.add("move_down", "skrald_pos_" + nytRand(10));
     }
     timeSprite.classList.add("tid");
     timeContainer.classList.remove("hide");
@@ -100,6 +97,15 @@ function startGame() {
     won_game.classList.add("hide");
     
 }
+function gameEnd(){    
+    if (point >= 15){
+        console.log("Winner - got more than 15 points ( " + point) ;
+        stopGameWin();
+    } else {
+        stopGameLost();
+    }
+}
+
 
 //Fisk handler
 function clickFiskhandler() {
@@ -122,23 +128,21 @@ function clickSkraldhandler() {
 }
 
 function fiskReset() {
-    randomPositionFisk = Math.floor(Math.random() * 5) + 1;
-    console.log("Fiskposition is " + randomPositionFisk);
+    console.log("Fiskposition is " + nytRand(5));
     document.querySelector("#liv").innerHTML = liv;
     this.firstElementChild.classList = "";
     this.classList = "";
     this.offsetLeft;
-    this.classList.add("move_right", "fisk_pos_" + randomPositionFisk);
+    this.classList.add("move_right", "fisk_pos_" + nytRand(5));
 }
 
 function skraldReset() {
-    randomPositionSkrald = Math.floor(Math.random() * 10) + 1;
-    console.log("Skraldposition is " + randomPositionSkrald);
+    console.log("Skraldposition is " + nytRand(10));
     document.querySelector("#point").innerHTML = point;
     this.firstElementChild.classList = "";
     this.classList = "";
     this.offsetLeft;
-    this.classList.add("move_down", "skrald_pos_" + randomPositionSkrald);
+    this.classList.add("move_down", "skrald_pos_" + nytRand(10));
 }
 
 function stopGameWin() {
@@ -150,7 +154,7 @@ function stopGameWin() {
     life.classList.add("hide");
     score.classList.add("hide");
     //Show game won screen
-    game_over_won.classList.remove("hide");
+    won_game.classList.remove("hide");
 
     for(i in alleFisk){
         alleFisk[i].classList = "";
@@ -168,13 +172,13 @@ function stopGameWin() {
         alleSkrald[i].removeEventListener("mousedown", clickSkraldhandler);
         alleSkrald[i].classList.add("hide");
     }
-    start_restart.addEventListener("click", startGame);
+    start_restart_won.addEventListener("click", startGame);
 }
 function stopGameLost() {
     console.log("Game Over - Lose");
     //Hide stuff
     timeSprite.classList.remove("tid");
-    game_over_lost.classList.remove("hide");
+    lost_game.classList.remove("hide");
     timeContainer.removeEventListener("animationend", gameEnd);
     timeContainer.classList.add("hide");
     life.classList.add("hide");
@@ -196,7 +200,7 @@ function stopGameLost() {
         alleSkrald[i].removeEventListener("mousedown", clickSkraldhandler);
         alleSkrald[i].classList.add("hide");
     }
-    start_restart.addEventListener("click", startGame);
+    start_restart_lost.addEventListener("click", startGame);
 }
 
 
