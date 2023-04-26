@@ -10,13 +10,14 @@ body {
     font-family: 'Oswald', sans-serif;
 }
 
+
 .game_window {
     position: relative;
     aspect-ratio: 16/9;
     width: 60%;
     border-style: solid;
     border-color: black;
-    left: 15%;
+    left: 21%;
     top: 5%;
     background-image: url(assets/baggrund1.svg);
     background-size: cover;

@@ -27,6 +27,16 @@ const timeEnd = document.querySelector("#time_sprite");
 timeEnd.addEventListener("animationend", gameEnd);
 
 
+//Exit knap
+const exit_knap_1 = document.querySelector("#exit_knap_1");
+const exit_knap_2 = document.querySelector("#exit_knap_2");
+const exit_knap_3 = document.querySelector("#exit_knap_3");
+function exit(){
+    window.location.href = "index.html";
+}
+exit_knap_1.addEventListener("click", exit);
+exit_knap_2.addEventListener("click", exit);
+exit_knap_3.addEventListener("click", exit);
 
 
 //Start screen

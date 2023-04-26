@@ -1,0 +1,41 @@
+/* Nav Bar */
+nav {
+    background-color: #2E3192;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  img .logo{
+    height: 40px;
+    margin-right: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+  }
+  
+  li {
+    margin: 0 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #F15A24;
+  }
+
+  .overskrift {
+    font-size: 500%;
+    margin: 1%;
+    text-align: center;
+  }
+
