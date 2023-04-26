@@ -44,11 +44,22 @@ const won_game = document.querySelector("#game_bg_won");
 function nytRand(max) {
     return Math.floor(Math.random() * max) + 1;
 }
+//Test Sound
+const buzz_sound = document.querySelector("#buzz");
+const splash_sound = document.querySelector("#splask");
 
-  
+function playBuzz(){
+    buzz_sound.currentTime = 0.6;
+    buzz_sound.play();
+}  
+function playSplash(){
+    splash_sound.play();
+}
 
 
 window.addEventListener("load", setup);
+
+//Functions
 
 function setup() {
     //Hide elements
@@ -117,6 +128,7 @@ function clickFiskhandler() {
         stopGameLost();
         //game lost screen
     } 
+    buzz_sound.play();
 }
 
 //Skrald handler
@@ -125,6 +137,7 @@ function clickSkraldhandler() {
     this.classList.add("frys");
     this.firstElementChild.classList.add("remove");
     this.addEventListener("animationend", skraldReset);
+    splash_sound.play();
 }
 
 function fiskReset() {
