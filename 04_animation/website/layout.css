@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+/* Footer */
+footer{
+  text-align: center;
+  margin: 5%;
+  font-family: 'Oswald', sans-serif;
+}
+footer a {
+  margin: 10%;
+  color: #2E3192;
+  
+}
+
 /* Nav Bar */
 nav {
     background-color: #2E3192;
@@ -20,7 +33,7 @@ nav {
   
   li {
     margin: 0 10px;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family: 'Oswald', sans-serif;
   }
   
   a {
@@ -39,3 +52,58 @@ nav {
     text-align: center;
   }
 
+  /* Grid assets */
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 768px) {
+    .container {
+      margin: 0 auto;
+      padding: 20px;
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .diagram img{
+      width: 20rem;
+    }
+  }
+  
+  .subgroup {
+    /*border-style: solid;
+    border-radius: 4%;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 5%;
+    margin: 2%;
+  }
+  .group h3 {
+    margin-left: 5%;
+    margin-bottom: 5%;
+  }
+  
+  .item {
+    width: calc(33.33% - 10px);
+    margin-bottom: 20px;
+  }
+  
+  .item img {
+    max-width: 100%;
+    height: auto;
+  }
+  .diagram img{
+    max-width: 25rem;
+  }
+ .text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 5%;
+  margin-left: 25%;
+  width: 50%;
+ }

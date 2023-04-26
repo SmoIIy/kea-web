@@ -13,6 +13,7 @@
 <body>
     <header>
         <nav>
+            <img class="logo" src="assets/favicon.png" alt="fishlogo">
             <ul class="nav_ul">
                 <li><a href="index.html">Forside</a></li>
                 <li><a href="spil.html">Spil</a></li>
@@ -23,15 +24,62 @@
         </nav>
     </header>
     <main>
-        <h1>Assets</h1>
-        <div class="game_elements">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+        <h1 class="overskrift">Assets</h1>
+        <div class="container">
+            
+            <div class="group">
+                <h3>Baggrund</h3>
+                <div class="subgroup">
+                    <div class="item"><img src="assets/baggrund1.svg"></div>
+                </div>
+            </div> 
+            <div class="group">   
+                <h3>UI skærme</h3>   
+                <div class="subgroup">
+                    <div class="item"><img src="assets/ui_background_1.svg"></div>
+                    <div class="item"><img src="assets/ui_background_2.svg"></div>
+                    <div class="item"><img src="assets/gameover_1.svg"></div>
+                    <div class="item"><img src="assets/gameover_lost1.svg"></div>
+                </div>
+            </div>     
+            <div class="group">
+                <h3>Spilelementer</h3>
+                <div class="subgroup">
+                    <div class="item"><img src="assets/fisk1.svg"></div>
+                    <div class="item"><img src="assets/skrald1.svg"></div>
+                    <div class="item"><img src="assets/mellemgrund_1.svg"></div>
+                </div>
+            </div>    
+            <div class="group">
+                <h3>Knapper</h3>
+                <div class="subgroup">
+                    <div class="item"><img src="assets/greenbutton_restart.svg"></div>
+                    <div class="item"><img src="assets/greenbutton_start.svg"></div>
+                    <div class="item"><img src="assets/redbutton_1.svg"></div>
+                </div>
+            </div>    
+            <div class="group">
+                <h3>Lyde</h3>
+                <div class="subgroup">
+                    <div>
+                        <p>Dårlig</p><br>
+
+                        <audio src="lyd/buzz.mp3" controls id="buzz"></audio>
+                    </div>    
+                    <div>
+                        <p>God</p> <br>
+                        <audio src="lyd/splash.wav" controls id="buzz"></audio>
+                    </div>  
+
+                </div>
+            </div>    
+
         </div>
     </main>
     <footer>
-        
+        <p>Created by: Janus Bardrum</p> 
+        <br>
+        <a href="https://github.com/SmoIIy/">Github</a>
     </footer>
 </body>
 </html>
