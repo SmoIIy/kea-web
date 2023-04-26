@@ -18,7 +18,7 @@ body {
     border-color: black;
     left: 15%;
     top: 5%;
-    background-image: url(/assets/baggrund1.svg);
+    background-image: url(assets/baggrund1.svg);
     background-size: cover;
     container-type: inline-size;
     
@@ -37,7 +37,7 @@ body {
 #mellemgrund_sprite {
     width: 100%;
     height: 100%;
-    background-image: url(/assets/mellemgrund_1.svg);
+    background-image: url(assets/mellemgrund_1.svg);
     background-size: cover;
     box-shadow: #000000;
 }
@@ -65,19 +65,19 @@ body {
 }
 
 #fisk_sprite_1 {
-    background-image: url(/assets/fisk1.svg);
+    background-image: url(assets/fisk1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 #fisk_sprite_2 {
-    background-image: url(/assets/fisk1.svg);
+    background-image: url(assets/fisk1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 #fisk_sprite_3 {
-    background-image: url(/assets/fisk1.svg);
+    background-image: url(assets/fisk1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -106,19 +106,19 @@ body {
 }
 
 #skrald_sprite_1 {
-    background-image: url(/assets/skrald1.svg);
+    background-image: url(assets/skrald1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 #skrald_sprite_2 {
-    background-image: url(/assets/skrald1.svg);
+    background-image: url(assets/skrald1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 #skrald_sprite_3 {
-    background-image: url(/assets/skrald1.svg);
+    background-image: url(assets/skrald1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -131,7 +131,7 @@ body {
     width: 100%;
     height: 100%;
     transform-origin: bottom;
-    background-image: url(/assets/timer1.svg);
+    background-image: url(assets/timer1.svg);
 }
 .tid {
     animation-name: time_ani;
@@ -331,7 +331,7 @@ body {
     top: 25%;
     left: 35%;
     z-index: 100;
-    background-image: url(/assets/ui_background_2.svg);
+    background-image: url(assets/ui_background_2.svg);
     -webkit-box-shadow: 5px 5px 15px -9px #000000; 
     box-shadow: 5px 5px 15px -9px #000000;
 }
@@ -343,7 +343,7 @@ body {
     left: 10%;
     text-align: center;
     cursor: pointer;
-    background-image: url(/assets/greenbutton_start.svg);
+    background-image: url(assets/greenbutton_start.svg);
     background-size: cover;
 }
 .start_knap_2 {
@@ -354,7 +354,7 @@ body {
     top: 60%;
     left: 55%;
     text-align: center;
-    background-image: url(/assets/redbutton_1.svg);
+    background-image: url(assets/redbutton_1.svg);
     background-size: cover;
 }
 #game_bg_won {
@@ -372,7 +372,7 @@ body {
     width: 25%;
     top: 25%;
     left: 35%;
-    background-image: url(/assets/gameover_won1.svg);
+    background-image: url(assets/gameover_won1.svg);
     background-size: cover;
     z-index: 101;
     -webkit-box-shadow: 5px 5px 15px -9px #000000; 
@@ -393,7 +393,7 @@ body {
     width: 25%;
     top: 25%;
     left: 35%;
-    background-image: url(/assets/gameover_lost1.svg);
+    background-image: url(assets/gameover_lost1.svg);
     background-size: cover;
     z-index: 101;
     -webkit-box-shadow: 5px 5px 15px -9px #000000; 
@@ -408,7 +408,7 @@ body {
     left: 10%;
     text-align: center;
     cursor: pointer;
-    background-image: url(/assets/greenbutton_restart.svg);
+    background-image: url(assets/greenbutton_restart.svg);
     background-size: cover;
 }
 
@@ -417,7 +417,7 @@ body {
     position: relative;
     left: 61%;
     top: 30%;
-    background-image: url(/assets/ui_background_1.svg);
+    background-image: url(assets/ui_background_1.svg);
     background-size: cover;
     box-shadow: 5px 5px 15px -9px #000000;
     width: 10%;
