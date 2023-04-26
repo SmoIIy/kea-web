@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* Point events non */
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 body {
@@ -20,39 +20,220 @@ body {
     top: 5%;
     background-image: url(/assets/baggrund1.svg);
     background-size: cover;
+    container-type: inline-size;
+    
+}
+.game_window h1 {
+    font-size: 2cqw;
+}
+#mellemgrund_container {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    aspect-ratio: 85/15;
+    pointer-events: none;
+    
+}
+#mellemgrund_sprite {
+    width: 100%;
+    height: 100%;
+    background-image: url(/assets/mellemgrund_1.svg);
+    background-size: cover;
+    box-shadow: #000000;
 }
 
-#fisk_container {
+#fisk_container_1 {
     position: absolute;
     aspect-ratio: 16/11;
     width: 10%;
-    top: 5%;
-    left: 0%;
+    /*top: 5%;*/
+    /*left: 0%;*/
+}
+#fisk_container_2 {
+    position: absolute;
+    aspect-ratio: 16/11;
+    width: 10%;
+    /*top: 5%;*/
+    /*left: 0%;*/
+}
+#fisk_container_3 {
+    position: absolute;
+    aspect-ratio: 16/11;
+    width: 10%;
+    /*top: 5%;*/
+    /*left: 0%;*/
 }
 
-#fisk_sprite {
+#fisk_sprite_1 {
+    background-image: url(/assets/fisk1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#fisk_sprite_2 {
+    background-image: url(/assets/fisk1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#fisk_sprite_3 {
     background-image: url(/assets/fisk1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
 
-#skrald_container {
+#skrald_container_1 {
     position: absolute;
     aspect-ratio: 10/13;
     width: 7%;
-    top: 5%;
-    left: 25%;
+    /*top: 5%;*/
+    /*left: 25%;*/
+}
+#skrald_container_2 {
+    position: absolute;
+    aspect-ratio: 10/13;
+    width: 7%;
+    /*top: 5%;*/
+    /*left: 25%;*/
+}
+#skrald_container_3 {
+    position: absolute;
+    aspect-ratio: 10/13;
+    width: 7%;
+    /*top: 5%;*/
+    /*left: 25%;*/
 }
 
-#skrald_sprite {
+#skrald_sprite_1 {
     background-image: url(/assets/skrald1.svg);
     background-size: cover;
     width: 100%;
     height: 100%;
 }
+#skrald_sprite_2 {
+    background-image: url(/assets/skrald1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#skrald_sprite_3 {
+    background-image: url(/assets/skrald1.svg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+#time_container {
+    width: 5%;
+    aspect-ratio: 1/5.1;
+}
+#time_sprite{
+    width: 100%;
+    height: 100%;
+    transform-origin: bottom;
+    background-image: url(/assets/timer1.svg);
+}
+.tid {
+    animation-name: time_ani;
+    animation-duration: 15s;
+    animation-timing-function: linear;
+    animation-fill-mode: both;
+}
 
-.remove_fisk {
+@keyframes time_ani {
+    from {
+        clip-path: inset(0 0 0);
+    }
+    to {
+        clip-path: inset(100% 0 0);
+    }
+}
+
+/* Fisk positions */
+
+.fisk_pos_1{
+    top: 5%;
+    left: 0%;
+
+}
+.fisk_pos_2{
+    top: 13%;
+    left: 0%;
+}
+.fisk_pos_3{
+    top: 28%;
+    left: 0%;
+}
+.fisk_pos_4{
+    top: 51%;
+    left: 0%;
+}
+.fisk_pos_5{
+    top: 69%;
+    left: 0%;
+}
+
+/* Skrald positions */
+
+.skrald_pos_1{
+    top: 0%;
+    left: 16%;
+}
+.skrald_pos_2{
+    top: 0%;
+    left: 29%;
+}
+.skrald_pos_3{
+    top: 0%;
+    left: 43%;
+}
+.skrald_pos_4{
+    top: 0%;
+    left: 61%;
+}
+.skrald_pos_5{
+    top: 0%;
+    left: 75%;
+}
+.skrald_pos_6{
+    top: 0%;
+    left: 51%;
+}
+.skrald_pos_7{
+    top: 0%;
+    left: 49%;
+}
+.skrald_pos_8{
+    top: 0%;
+    left: 37%;
+}
+.skrald_pos_9{
+    top: 0%;
+    left: 88%;
+}
+.skrald_pos_10{
+    top: 0%;
+    left: 90%;
+}
+/* Delay */
+
+.delay_1 {
+    animation-delay: 0s;
+}
+  
+.delay_2 {
+    animation-delay: 0.3s;
+}
+  
+.delay_3 {
+    animation-delay: 0.6s;
+}
+  
+.delay_4 {
+    animation-delay: 0.9s;
+}
+
+.remove {
     animation-name: remove_ani;
     animation-duration: 0.1s;
     animation-timing-function: ease;
@@ -78,6 +259,8 @@ body {
     animation-name: move_right_ani;
     animation-duration: 5s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 
@@ -90,26 +273,20 @@ body {
     }
 }
 
-.move_right {
-    animation-name: move_right_ani;
-    animation-duration: 5s;
-    animation-timing-function: linear;
-}
-
-
-@keyframes move_right_ani {
-    from {
-        transform: translate(0, 0);
-    }
-    to {
-        transform: translate(950%, 0);
-    }
+.frys {
+    animation-play-state: paused;
+  }
+  
+.hide {
+    display: none;
 }
 
 .move_left {
     animation-name: move_left_ani;
     animation-duration: 5s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 
@@ -124,8 +301,9 @@ body {
 
 .move_down {
     animation-name: move_down_ani;
-    animation-duration: 5s;
+    animation-duration: 3s;
     animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @keyframes move_down_ani {
@@ -133,6 +311,146 @@ body {
         transform: translate(0, -100%);
     }
     to {
-        transform: translate(0, 300%);
+        transform: translate(0, 450%);
     }
 }
+/*Start skærm */
+#start {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(112, 149, 214, 0.8); 
+    
+}
+#start_sprite {
+    position: absolute;
+    aspect-ratio: 4/4.2;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    z-index: 100;
+    background-image: url(/assets/ui_background_2.svg);
+    -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+    box-shadow: 5px 5px 15px -9px #000000;
+}
+#start_knap_1 {
+    position: relative;
+    aspect-ratio: 20/9;
+    width: 35%;
+    top: 75%;
+    left: 10%;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(/assets/greenbutton_start.svg);
+    background-size: cover;
+}
+.start_knap_2 {
+    position: relative;
+    aspect-ratio: 20/9;
+    cursor: pointer;
+    width: 35%;
+    top: 60%;
+    left: 55%;
+    text-align: center;
+    background-image: url(/assets/redbutton_1.svg);
+    background-size: cover;
+}
+#game_bg_won {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(112, 149, 214, 0.8); 
+    z-index: 100;
+}
+#game_over_won {
+    position: absolute;
+    aspect-ratio: 4/4.2;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    background-image: url(/assets/gameover_won1.svg);
+    background-size: cover;
+    z-index: 101;
+    -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+    box-shadow: 5px 5px 15px -9px #000000;
+}
+#game_bg_lost {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(112, 149, 214, 0.8); 
+    z-index: 100;
+}
+#game_over_lost {
+    position: absolute;
+    aspect-ratio: 4/4.2;
+    width: 25%;
+    top: 25%;
+    left: 35%;
+    background-image: url(/assets/gameover_lost1.svg);
+    background-size: cover;
+    z-index: 101;
+    -webkit-box-shadow: 5px 5px 15px -9px #000000; 
+    box-shadow: 5px 5px 15px -9px #000000;
+}
+
+.start_knap_restart {
+    position: relative;
+    aspect-ratio: 20/9;
+    width: 35%;
+    top: 75%;
+    left: 10%;
+    text-align: center;
+    cursor: pointer;
+    background-image: url(/assets/greenbutton_restart.svg);
+    background-size: cover;
+}
+
+/* Score Screen */
+.score_screen{
+    position: relative;
+    left: 61%;
+    top: 30%;
+    background-image: url(/assets/ui_background_1.svg);
+    background-size: cover;
+    box-shadow: 5px 5px 15px -9px #000000;
+    width: 10%;
+    aspect-ratio: 4/4.2;
+    text-align: center;
+    z-index: 101;
+    animation-name: scorescreen_ani;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    animation-delay: 0.5s;
+    font-size: 1cqw;
+    overflow: hidden;
+}
+.score_screen_text{
+    position: relative;
+    top: 30%;
+    color: #2E3192;
+}
+
+@keyframes scorescreen_ani {
+    0% {
+        translate: -50%;
+        opacity: 0%;
+    }
+    60% {
+        translate: 50%;
+        opacity: 0%;
+    }
+    100% {
+        translate: 0;
+        opacity: 100%;
+    }
+}
+
+
