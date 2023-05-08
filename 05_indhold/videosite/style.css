@@ -131,19 +131,90 @@ p, h3, h2, h1 {
 #main-text {
     position: absolute;
     left: 50%;
-    top: 40%;
+    top: 35%;
     width: 25vw;
+    line-height: 3vh;
+    
     
 }
+
+
 #gallery {
     position: absolute;
     left: 50%;
-    top: 40%;
-    max-width: 25vw;
-    display: flex;
-    align-items: center;
-    height: 10vh;
-    flex-wrap: wrap;
+    top: 20%;
+    max-width: 50vh;
+    max-height: 50vh;
     gap: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 10px;
+    z-index: 3;
+
 }
+.gallery-item {
+    width: 100%;
+    height: 100%;
+}
+.gallery-item:nth-child(1){
+    grid-column: 1/span 1;
+    grid-row: 1/span 2;
+}
+.gallery-item:nth-child(2){
+    grid-column: 2/span 1;
+    grid-row: 1
+}
+.gallery-item:nth-child(3){
+    grid-column: 1/span 2;
+    grid-row: 3;
+}
+.gallery-item:nth-child(4){
+    grid-column: 2/span 1;
+    grid-row: 2/span 1;
+}
+
+.btn {
+    padding: 10px 25px;
+    font-family: 'Rambla', sans-serif;
+    font-weight: 500;
+    background: transparent;
+    outline: none !important;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: 2px solid rgb(255, 255, 255);
+    z-index: 1;
+    color: white;
+  }
+  
+  .btn:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    background: rgb(255, 255, 255);
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    color: rgb(0, 0, 0);
+  }
+  
+  .btn:hover:after {
+    top: 0;
+    height: 100%;
+  }
+  
+  .btn:active {
+    top: 2px;
+  }
+
+
 
