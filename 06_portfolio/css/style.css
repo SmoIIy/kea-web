@@ -1,0 +1,138 @@
+/* font-family: 'Heebo', sans-serif; */
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    display: block;
+    width: 100%;
+}
+
+body {
+    height: 200vh;
+    background-color: #141414;
+}
+
+a {
+    font-family: 'Heebo', sans-serif;
+    color: white;
+    text-decoration: none;
+    transition: color 200ms ease;
+}
+a:hover {
+    color: #8704BF;
+}
+
+/* Desktop menu */
+
+.white-line {
+    width: 0px;
+    height: 25px;
+    background-color: white;
+}
+
+.desktop-nav {
+    position: sticky;
+    top: 25%;
+    left: -10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 5vw;
+    gap: 2vh;
+    transition: all 400ms ease;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    opacity: 0.3;
+}
+
+.desktop-nav-item {
+    padding: 1px;
+    transition: all 400ms ease;
+}
+
+.desktop-nav:hover {
+    transform: scale(1.3);
+    translate: 50% 0%;
+    opacity: 1;
+}
+
+.desktop-nav:hover > .desktop-nav-item:nth-child(1) {
+    transform: rotate(-6deg);
+    translate: 1% 0%;
+}
+.desktop-nav:hover > .desktop-nav-item:nth-child(2) {
+    transform: rotate(-3deg);
+    translate: 20% 0%;
+}
+.desktop-nav:hover > .desktop-nav-item:nth-child(3) {
+    translate: 8% 0%;
+}
+.desktop-nav:hover > .desktop-nav-item:nth-child(4) {
+    transform: rotate(3deg);
+    translate: 20% 0%;
+}
+.desktop-nav:hover > .desktop-nav-item:nth-child(5) {
+    transform: rotate(6deg);
+    translate: 1% 0%;
+    z-index: 2;
+}
+.desktop-nav-item:nth-child(5):hover .desktop-nav-submenu {
+    display: block;
+
+}
+
+.desktop-nav-submenu {
+    position: absolute;
+    top: -310%;
+    left: 55%;
+    display: none;
+    padding: 1.5rem;
+    margin-left: 25%;
+    z-index: 1;
+    transform: rotate(-6deg);
+}
+
+
+.submenu-item {
+    transition: opacity calc(var(--order) * 10ms) ease, 
+        color 200ms ease,
+        translate 200ms ease,
+        transform calc(var(--order) * 100ms) ease,
+        translate calc(var(--order) * 100ms) ease;
+    opacity: 0.3;
+    display: block;
+    
+}
+.desktop-nav-submenu:hover .submenu-item {
+    opacity: 1;
+    translate: 5px 0px;
+}
+
+.desktop-nav-submenu:hover > .submenu-item:nth-child(1) {
+    transform: rotate(-18deg);
+    translate: 10% -125%;
+}
+.desktop-nav-submenu:hover > .submenu-item:nth-child(2) {
+    transform: rotate(-8deg);
+    translate: 20% -100%;
+}
+.desktop-nav-submenu:hover > .submenu-item:nth-child(3) {
+    transform: rotate(-3deg);
+    translate: 30% -60%;
+}
+.desktop-nav-submenu:hover > .submenu-item:nth-child(4) {
+    transform: rotate(5deg);
+    translate: 30% -20%;
+}
+.desktop-nav-submenu:hover > .submenu-item:nth-child(5) {
+    transform: rotate(9deg);
+    translate: 25% 15%;
+}
+.desktop-nav-submenu:hover > .submenu-item:nth-child(6) {
+    transform: rotate(15deg);
+    translate: 18% 30%;
+}
+
+
+
