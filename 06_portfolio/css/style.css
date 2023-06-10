@@ -10,7 +10,7 @@ img {
 }
 
 body {
-    height: 200vh;
+    min-height: 300vh;
     background-image: url(/assets/background1.svg); 
     background-size: 150%;
     background-position: top;
@@ -249,5 +249,44 @@ a:hover {
     transform: scale(1.1);
   }
   
+  /* Button */
+
+  .button {
+    box-shadow: 2px 1px 3px 0px rgba(20,20,20,0.75);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(106deg, rgba(135,4,191,1) 0%,     rgba(119,185,242,1) 50%, rgba(13,2,89,1) 100%);
+    background-size: 200% 100%;
+    height: 60px;
+    aspect-ratio: 12/5;
+    border-radius: 10px;
+    transition: all 400ms ease;
+    cursor: pointer;
+  }
+  
+  .button-link {
+    color: white;
+    text-decoration: none;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 400;
+    transition: transform 400ms ease;
+  }
+  .button-link:hover {
+    color: white;
+    transform: scale(1.05);
+  }
+  .button:hover {
+    background-size: 100% 100%;
+  }
+
+  /* Footer desktop */
+  footer {
+    margin-top: 50vh;
+    height: 25vh;
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+  }
     
 
