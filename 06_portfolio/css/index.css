@@ -1,3 +1,7 @@
+/* Desktop */
+@media  (min-width: 600px) {
+    
+
 main {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -19,4 +23,6 @@ main {
     text-align: center;
     font-weight: 200;
     letter-spacing: 2px
+}
+
 }

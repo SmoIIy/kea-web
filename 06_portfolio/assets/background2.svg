@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1734 3760">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        filter: url(#outer-glow-1);
+        stroke: #3fa9f5;
+        stroke-miterlimit: 10;
+        stroke-width: 2px;
+      }
+    </style>
+    <filter id="outer-glow-1" filterUnits="userSpaceOnUse">
+      <feOffset dx="0" dy="0"/>
+      <feGaussianBlur result="blur" stdDeviation="5"/>
+      <feFlood flood-color="#77b9f2" flood-opacity=".75"/>
+      <feComposite in2="blur" operator="in"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Layer_2-2" data-name="Layer 2">
+    <path class="cls-1" d="m948,19S448-29,422,339s292,294,710,152,512-4,444,88-936,256-1180,200-824,92,234,458,244,498,86,514-196,104,332,104,450,178,96,296-524,100-628,20-846,44,190,404,774-154,774-154c0,0-128-196,170,82s-462,838-808,712-616,188-200,376,664,184,774,86"/>
+  </g>
+</svg>
