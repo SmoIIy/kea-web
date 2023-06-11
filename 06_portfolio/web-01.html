@@ -5,11 +5,124 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
     <link rel="stylesheet" href="/css/style.css">
-    
+    <link rel="stylesheet" href="/css/layout-content.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="script.js"></script>
-    <title>Portfolio - Janus</title>
+    <title>web-01</title>
 </head>
 <body>
+    <div class="body-background"></div>    
+    <!-- Dekstop nav-->
+    <aside class="desktop-nav">
+        <div class="desktop-nav-item">
+            <a href="index.html">Forside</a>
+        </div>
+        <div class="desktop-nav-item white-line"></div>
+        <div class="desktop-nav-item">
+            <a href="om.html">Om mig</a>
+        </div>
+        <div class="desktop-nav-item white-line"></div>
+        <div class="desktop-nav-item">
+            <a href="">Portfolio</a>
+            <div class="desktop-nav-submenu">
+                <a href="web-01.html" class="submenu-item" style="--order: 1">web/intro_01</a>
+                <a href="web-02.html" class="submenu-item" style="--order: 2">web/emne_02</a>
+                <a href="ux.html" class="submenu-item" style="--order: 3">ux/emne_03</a>
+                <a href="animation.html" class="submenu-item" style="--order: 4">animation/emne_04</a>
+                <a href="indhold.html" class="submenu-item" style="--order: 5">indhold/emne_05</a>
+                <a href="portfolio.html" class="submenu-item" style="--order: 6">portfolio/emne_06</a>
+            </div>
+        </div>
+        
+    </aside>
+    <!-- Mobile nav-->
+    <nav class="mobile-nav-container">
+        <div class="hamburger">
+            <div class="bar"></div>
+        </div>
+        <div class="mobile-nav">
+            <a href="index.html">Forside</a>
+            <a href="history.html">Om mig</a>
+            <a href="connection.html">Portfolio</a>
+        </div>
+    </nav> 
+    <!--Main content-->
+    <div class="main-container-content">
+        <h1 class="content-title">Grundlæggende web</h1>
     
+    <div class="content-intro-boxes">
+        <div class="content-intro-boxes-text">
+            <h2>Studiestartsprøve</h2>
+            <p>Første rigtige emne, var intro til webudvikling og basic designprincipper. Dette var ting som gestaltlove, farver og former. Dog var dette primært et intro til web - det vil sige HTML og CSS. Der var fokus på et responsivt design, med en “mobile first” tilgang. Dette blev opnået ved hjælp af primært CSS grid, flex og media queries. Vi blev også introduceret til VS Code, browserens developer tools, og FileZilla til upload af filer på vores eget domæne.</p>
+            <div class="button">
+                <a href="http://janusbardrum.com/kea/02_web/01_website/website/" class="button-link">Link</a>
+            </div>
+        </div>    
+        <div class="content-intro-image-container">
+            <img src="process/images/01/Screenshot_1226.png" alt="">
+        </div>
+    </div>
+    <div class="proces">
+        <h2>Proces</h2>
+        <p>Processen var simpel at gå til, i det af layout og opsætning var bestemt af de layoutdiagrammer og wireframes som vi fik udleveret, og som skulle følges. Så den primære opgave, var at bruge de principper vi havde lært inden for HTML og CSS. Grundet min erfaring fra tidligere arbejde, var det kun CSS grid, jeg ikke havde arbejdet med før. <br><br>Den kreative proces gik med at vælge farver der passede sammen, samt små touches som rundede kanter og borders</p>
+    </div>
+    <div class="gallery">
+        <h2>Galleri</h2>
+        <div></div>
+        <div class="gallery-image-container">
+            <img src="/process/images/01/css.png" alt="" class="gallery-image">
+            <div class="gallery-image-banner">
+                <p>CSS</p>
+            </div>
+        </div>
+        <div class="gallery-image-container">
+            <img src="/process/images/01/html.png" alt="" class="gallery-image">
+            <div class="gallery-image-banner">
+                <p>HTML</p>
+            </div>
+        </div>
+        <div class="gallery-image-container">
+            <img src="/process/images/01/mobile.png" alt="" class="gallery-image">
+            <div class="gallery-image-banner">
+                <p>Mobile</p>
+            </div>
+        </div>
+        <div class="gallery-image-container">
+            <img src="process/images/01/Screenshot_1231.png" alt="" class="gallery-image">
+            <div class="gallery-image-banner">
+                <p>Desktop</p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mobile-nav-buttons">
+    <div class="button">
+        <a href="index.html" class="button-link">tilbage</a>
+    </div>
+    <div class="button">
+        <a href="web-02.html" class="button-link">næste</a>
+    </div>
+</div>
+    <footer>
+        <div class="footer-container">
+            <a href="index.html" class="footer-link">Forside</a>
+            <div class="white-line"></div>
+            <p>Janus Møllekær Bardrum</p>
+        </div>
+        <div class="white-line white-line-longer"></div>
+        <div class="footer-container">
+            <a href="om.html" class="footer-link">Om mig</a>
+            <div class="white-line"></div>
+            <p>janusbardrum@gmail.com</p>
+        </div>
+        <div class="white-line white-line-longer"></div>
+        <div class="footer-container">
+            <a href="web-01.html" class="footer-link">Portfolio</a>
+            <div class="white-line"></div>
+            <p>+45 61149336</p>
+        </div>
+    </footer>
 </body>
 </html>
