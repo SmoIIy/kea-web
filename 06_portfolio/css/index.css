@@ -121,14 +121,14 @@ main {
     }
     .main-cards-container {
         width: 90%;
-        margin: 0 auto auto auto;
+        margin: 0 auto 10% auto;
         display: grid;
         grid-row: 4;
         gap: 10%;
         grid-column: 1/span 3;
         grid-template-columns: repeat(2, 1fr);
         place-items: center;
-        min-height: 120vh;
+        min-height: 100vh;
     }
     .intro-right {
         background: linear-gradient(140deg, rgba(119,185,242,0.7) 0%, rgba(135,4,191,0.2) 100%);
@@ -164,5 +164,8 @@ main {
     #frontpage-button {
         grid-column: 1;
         margin: auto;
+    }
+    .card {
+        height: 50vmin;
     }
 }
