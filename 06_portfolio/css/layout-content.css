@@ -86,7 +86,7 @@
         display: none;
     }
     .content-title {
-        margin: 25vh auto 0 auto;
+        margin: 25vh auto 15vh auto;
         grid-column: 1/span 3;
         font-size: 8vw;
         text-align: center;
@@ -111,7 +111,7 @@
     .content-intro-boxes-text {
         grid-column: 1/span 3;
         background-color: rgba(20, 20, 20, 0.199);
-        padding: 5px;
+        padding: 10px;
         border-radius: 15px;
     }
     .content-intro-boxes-text .button {
@@ -135,7 +135,7 @@
         max-width: 300px;
         grid-row: 3;
         grid-column: 1/span 3;
-        padding: 10%;
+        padding: 8%;
         margin-bottom: 25px;
         
     }
