@@ -71,6 +71,7 @@
     margin: 5px;
 }
 .social-icons {
+    margin-top: 5%;
     display: flex;
     justify-content: space-around;
     align-items: center;
