@@ -25,13 +25,13 @@ img {
 
 body {
     min-height: 300vh;
-    background-image: url(/assets/background3.svg); 
+    background-image: url(background3.svg); 
     background-size: 250%;
     background-position: center;
     background-repeat: repeat;
 }
 #bg-lines {
-  background-image: url(/assets/background1.svg);
+  background-image: url(background1.svg);
 }
 @media (max-width: 600px) {
   body {
