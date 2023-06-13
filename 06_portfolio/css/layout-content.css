@@ -51,6 +51,10 @@
         padding: 10%;
         
     }
+    .proces-bg{
+        background-color: rgba(20, 20, 20, 0.199);
+        border-radius: 15px;
+    }
     #proces-2 {
         grid-row: 4;
         grid-column: 4/span 2; 
@@ -61,7 +65,6 @@
         
     }
     .proces h2, .proces p, .proces h4 {
-        background-color: rgba(20, 20, 20, 0.199);
         padding: 10px;
         margin-top: 5px;
         border-radius: 15px;
@@ -157,8 +160,11 @@
         grid-column: 1/span 3;
         
     }
-    .proces h2, .proces p, .proces h4{
+    .proces-bg{
         background-color: rgba(20, 20, 20, 0.199);
+        border-radius: 15px;
+    }
+    .proces h2, .proces p, .proces h4{
         padding: 10px;
         margin-top: 5px;
         border-radius: 15px;

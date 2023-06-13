@@ -33,6 +33,7 @@ main {
 } 
 .intro-text-left {
     margin-top: 10%;
+    background: linear-gradient(140deg, rgba(119,185,242,0.7) 0%, rgba(135,4,191,0.2) 100%);
     background-color: rgba(20, 20, 20, 0.199);
     padding: 10px;
     border-radius: 15px;
