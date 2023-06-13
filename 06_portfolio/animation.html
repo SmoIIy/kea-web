@@ -60,14 +60,13 @@
     <div class="content-intro-boxes gradient-background">
         <div class="content-intro-boxes-text">
             <h2>Browserspil</h2>
-            <p>UX - t-shirt shop
-                I UX temaet gik vi dybere med selve designprocessen og snakkede om UI konventioner, prototyping og testing. Vi blev introduceret til flere aspekter af adobe XD, så som UI kits og prototype.Derudover blev vi indtroduceret til indsamling og analysering af data ved hjælp af af tests som: <br></p>
+            <p>I 4. forløb, skulle vi skabe vores eget spil, ved hjælp af egendesignede sprites og baggrunde, og kodet med css animationer og javascript. De primære formål var: <br></p>
                 <ul style="margin-left: 5%;">
-                <li>Heuristisk </li> 
-                <li>Lighthouse </li>
-                <li>BERT test </li>
-                <li>5 sek test </li>
-                <li>Tænkt højt test</li>
+                <li>Vælge og planlægge et design inkl. UI-elementer, spilelementer og baggrunde </li> 
+                <li>Planlægge komplicerede interaktive flows ved hjælp af aktivitets- og statemachine-diagrammer
+                </li>
+                <li>Brug og forståelse af CSS animationer</li>
+                <li>Introduktion til javascript  </li>
                 </ul>
                 
             <a href="https://smoiiy.github.io/kea-web/04_animation/website/spil.html" class="button-link button" target="_blank">Link</a>
@@ -78,57 +77,66 @@
     </div>
     <div class="proces gradient-background">
         <h2>Proces</h2>
-        <p>Processen for sidedesignet, startede med en idé til hvad vores side skulle sælge. Jeg lavede et koncept med afsender, modtager, målgruppe og USP, udfra min desk research. Endte med en idé om genbrugstøj, med en rummelig og behagelig atmosfære. <br>
-            Derfra lavede jeg et interview og en 'over-the-shoulder' observationsanalyse, for at undersøge hvad en person fra målgruppen søger når de shopper tøj online. Udfra det, samt mit deskresearch, gik jeg i gang med at samle inspiration, og samlede det sammen til et moodboard, som både indeholdte fonts, billedestil, farver og texture. Udfra dette, udviklede jeg også et styletile, denne gang med knapper og hover effekter <br>
+        <p>Min proces startede med en deskresearch session til idéudvikling, og derefter en brainstorm med min notesbog for den visuelle stil. Jeg kom frem til et retro design, inspireret af 2D sprite spil fra 80'erne og 90'erne. Efter at have siddet med det i illustrator, valgte jeg dog at skifte stil, da jeg var mere interesseret i at lave shapes, en pixelart, som min oprindelige stil ville kræve. Ideen til mit spil var et spil om at rydde op i havet, ved at fjerne skrald.
+        </p>
+        <h4>Visuelt</h4>
+            <p>
+            Jeg startede med at tegne mit 'dårlige' element, som endte med at være det mest farverige - nemlig min fisk. Dette var gjort, da farven skulle passe til den blå baggrund, så jeg endte med en komplimentær vibrant orange. Til at kontraste dette, og skabe afstand mellem de to, var mit 'gode' element lavet med mere desaturerede farver som grå og mørkegrå. <br>
+            Stilmæssigt, valgte jeg en 'bubble'/kawaii inspireret design stil, med tydelige outlines, farver, highlights og skygger. Dette hjalp også med at få mine spilelementer til at stå ud fra baggrunden, dog mere en hensigten var. Mine UI-elementer fuldte samme design, for at give en varme og farverig indbydelse til besøgeren.
             <br>
-            Derefter blev vi introduceret til papirscetches, og derfor var første udkast til wireframe her lavet på papir i hånden, som 'rough scetches'. Derefter blev de tegnet op i adobe XD, som rigtige wireframes, når jeg nåede et layout jeg var tilfreds med. Derefter gik jeg i gang med at bevæge mig mod det færdige produkt. Det vil sige, først lave et mockup i XD, teste det(primært med 'tænke-højt-test'), rette til og om igen. Til sidste blev det hele sat sammen til en prototype i XD, så funktionaliten og brugerrejsen kunne observeres og testes. Dette blev testet sammen med mine medsturende i klasselokalet, ved hjælp af tænke-højt tests igen. Det feedback jeg fik derfra, gik primært ud på uklarhed om budskabet, og det skulle med i den pitch vi skulle holde derefter. Desværre nåede jeg ikke i deltage i den pitch, grundet sygdom</p>
+
+        </p>
+        <h4>Funktionalitet</h4>
+        <p>Den helt basic funktionalitet, var bestemt for os på forhånd. Klik på et af to elementer, det ene gør noget godt, det andet gør noget dårligt. Som en intro til aktivitetsdiagrammer, tegnede jeg dette op i sådan et. 
+        <br>
+        Derefter udvidedet jeg til et mere detaljeret state machine diagram, som forklarer hver enkelt interaktion. Det vil sige at der forklares hvad der videre skal foregå efter en event starter eller slutter, en variabel når nul mm. Disse kan oversættes direkte til eventlisteners eller if-statements i javascript, og lagde basis for min kode til spillet. </p>
     </div>
     <div class="gallery gradient-background">
         <h2>Galleri</h2>
         <div></div>
         <div class="gallery-image-container">
-            <img src="process/images/03/koncept.png" alt="" class="gallery-image">
+            <img src="process/images/04/skitse2.jpg" alt="" class="gallery-image">
             <div class="gallery-image-banner">
-                <p>koncept</p>
+                <p>Skitse</p>
             </div>
         </div>
         <div class="gallery-image-container">
-            <img src="process/images/03/Moodboard.png" alt="" class="gallery-image">
+            <img src="process/images/04/sprites.png" alt="" class="gallery-image">
             <div class="gallery-image-banner">
-                <p>Moodboard</p>
+                <p>Spilelementer</p>
             </div>
         </div>
         <div class="gallery-image-container">
-            <img src="process/images/03/front.jpg" alt="" class="gallery-image">
+            <img src="process/images/04//UI.png" alt="" class="gallery-image">
             <div class="gallery-image-banner">
-                <p>Scetch</p>
+                <p>UI Elementer</p>
             </div>
         </div>
         <div class="gallery-image-container">
-            <img src="process/images/03/shop.jpg" alt="" class="gallery-image">
+            <img src="process/images/04/diagram_use.png" alt="" class="gallery-image">
             <div class="gallery-image-banner">
-                <p>Scetch</p>
+                <p>Diagram</p>
             </div>
         </div>
         <div class="gallery-image-container">
-            <img src="process/images/03/Styletile.png" alt="" class="gallery-image">
+            <img src="process/images/04/javascript.png" alt="" class="gallery-image">
             <div class="gallery-image-banner">
-                <p>Styletile</p>
+                <p>Javascript</p>
             </div>
         </div>
         <div class="gallery-image-container">
-            <img src="process/images/03/Front-Prototype.png" alt="" class="gallery-image">
+            <img src="process/images/04/spil.png" alt="" class="gallery-image">
             <div class="gallery-image-banner">
-                <p>prototype</p>
+                <p>Spil</p>
             </div>
         </div>
     </div>
     <div class="mobile-nav-buttons">
 
-            <a href="web-02.html" class="button-link button">tilbage</a>
+            <a href="ux.html" class="button-link button">tilbage</a>
 
 
-            <a href="animation.html" class="button-link button">næste</a>
+            <a href="indhold.html" class="button-link button">næste</a>
 
     </div>
 </div>
