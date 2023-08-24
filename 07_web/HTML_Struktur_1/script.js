@@ -11,8 +11,11 @@ console.log(articleCont);
 console.log(art);
 console.log(pic);
 
+let newElement = document.createElement("article");
+
 
 title.innerHTML = "Hvad er det der foregår";
 undertitel.innerHTML = "Oh my god, please";
 pic.src = "https://picsum.photos/300/300";
+articleCont.appendChild(newElement);
 
