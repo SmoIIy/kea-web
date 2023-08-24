@@ -29,8 +29,10 @@ main {
 .articlecontainer:nth-child(1){
     grid-row: 1;
 }
-.articlecontainer:nth-child(2){
-    grid-row: 2;
+article:nth-child(2){
+    grid-row: 1;
+    grid-column: 2;
+    background-color: red;
 }
 .articlecontainer:nth-child(3){
     grid-row: 2;
