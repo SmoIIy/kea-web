@@ -2,11 +2,22 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-style: solid;
+    border-width: 0.5px
+}
+footer {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-width: 0.5px
 }
 
 main {
-    display: flex;
+    display: grid;
     justify-content: center;
+    margin: 25px;
 }
 
 .articlecontainer {
