@@ -13,5 +13,6 @@ console.log(pic);
 
 
 title.innerHTML = "Hvad er det der foregår";
-undertitel.innerHTML = "Oh my god, please"
+undertitel.innerHTML = "Oh my god, please";
+pic.src = "https://picsum.photos/300/300";
 
