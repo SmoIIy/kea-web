@@ -1,4 +1,4 @@
-fetch("https://kea-alt-del.dk/t7/api/products/")
+fetch("https://kea-alt-del.dk/t7/api/products?limit=50&category=Apparel")
     .then((res) => res.json())
     .then(showItems)
 
@@ -7,20 +7,6 @@ function showItems(items) {
     items.forEach(showItem);
 }    
 
-/*
-<article>
-        <img src="" alt="">
-        <h2 class="name">Ceva</h2>
-        <h3 class="alias">Godcille</h3>
-        <p class="powers"></p>
-        <p class="weakness"></p>
-        <p class="active"></p>
-        <p class="isevil"></p>
-        <p class="height"></p>
-        <p class="birthday"></p>
-        
-    </article>
-    */
 
 function showItem(item) {
     console.log(item);
@@ -35,7 +21,10 @@ function showItem(item) {
     
     copy.querySelector(".productlist-card-price").textContent = "Price: " + item.price;
     copy.querySelector(".productlist-card-discount-price").textContent = "Price: " + item.price;
+    copy.querySelector(".productlist-card-category").textContent = item.category;
+    
 
+    //Price
     if(item.discount != null){
         copy.querySelector(".productlist-card-price").classList.add("displayLineThrough");
         let discount = item.discount;
