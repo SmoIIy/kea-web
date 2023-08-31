@@ -6,12 +6,7 @@ const api = "https://kea-alt-del.dk/t7/api/products/" + id;
 fetch(api)
     .then((res) => res.json())
     .then(showItem)
-
-/* function showItems(items) {
-    //loop
-    items.forEach(showItem);
-}   */  
-    
+ 
 function showItem(item) {
     console.log(item);
     const template = document.querySelector("template").content;

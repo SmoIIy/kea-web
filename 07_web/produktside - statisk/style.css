@@ -38,6 +38,7 @@ a {
 
 a:hover {
     opacity: 0.8;
+    translate: 2px 2px;
 }
 
 .productlist-grid {
@@ -51,6 +52,10 @@ a:hover {
 .productlist-card-template {
     margin: 2rem;
     padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
 }
 .productlist-card-image {
     position: relative;
@@ -76,6 +81,12 @@ a:hover {
 }
 .productlist-card-title {
     overflow: hidden;
+}
+.productlist-card-button a {
+    background-color: rgb(202, 12, 255);
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 10px;
 }
 
 

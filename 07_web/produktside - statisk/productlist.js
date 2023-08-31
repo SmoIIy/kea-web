@@ -1,5 +1,6 @@
-const api = "https://kea-alt-del.dk/t7/api/products/";
-
+const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get("category");
+const api = "https://kea-alt-del.dk/t7/api/products/" + category;
 
 fetch(api)
     .then((res) => res.json())
@@ -17,6 +18,7 @@ function showItem(item) {
     
     const template = document.querySelector("template").content;
     const copy = template.cloneNode(true);
+    copy.querySelector("a").href = `product.html?id=${item.id}`;
     copy.querySelector(".productlist-card-title").textContent = item.productdisplayname;
     
     copy.querySelector(".productlist-card-type").textContent = item.articletype;
