@@ -12,6 +12,7 @@ function showCategory(category){
     const template = document.querySelector("template").content;
     const copy = template.cloneNode(true);
     copy.querySelector(".category-link").textContent = category.category;
+    copy.querySelector(".category-link").href = "/productlist.html"
 
     const parent = document.querySelector(".categories-grid");
     parent.appendChild(copy);
