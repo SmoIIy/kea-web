@@ -79,31 +79,25 @@ a:hover {
 }
 
 
-.categories-container {
+.categories-grid {
     margin: 5%;
-    display: flex;
-    max-width: 80%;
-    min-width: 50%;
-    min-height: 80%;
-    justify-content: flex-start;
-    align-items: stretch;
-    flex-wrap: wrap;
-    gap: 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
 }
 
-.category-link-container {
+.category-link {
+    padding: 50px;
     background-color: cadetblue;
-    width: 25%;
-    height: 200%;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
-
-.category-link {
-    margin-left: 5%;
+.category-link:hover{
+    background-color: rgba(95, 158, 160, 0.8);
 }
+
 
 .displayLineThrough {
     text-decoration: line-through;
