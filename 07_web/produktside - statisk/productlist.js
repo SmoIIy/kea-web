@@ -1,4 +1,7 @@
-fetch("https://kea-alt-del.dk/t7/api/products?limit=50")
+const api = "https://kea-alt-del.dk/t7/api/products/";
+
+
+fetch(api)
     .then((res) => res.json())
     .then(showItems)
 
