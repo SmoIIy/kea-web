@@ -1,0 +1,51 @@
+---
+import PlaylistCard from "./Playlist-card.astro";
+interface Props {
+    title: string;
+}
+const {title} = Astro.props;
+---
+
+<div class="grid">
+    <h1>{title}</h1>
+    <div class="flex">
+        <slot />
+    <PlaylistCard
+        title="Playlist"
+        href="#"
+        desc="Playlist test der siger noget om playlisten"
+        image="https://picsum.photos/id/65/150/150"
+    />
+    <PlaylistCard
+        title="Playlist"
+        href="#"
+        desc="Playlist test der siger noget om playlisten"
+        image="https://picsum.photos/id/68/150/150"
+    />
+    <PlaylistCard
+        title="Playlist"
+        href="#"
+        desc="Playlist test der siger noget om playlisten"
+        image="https://picsum.photos/id/76/150/150"
+    />
+</div>
+
+</div>
+
+<style>
+    .grid {
+        background-color: rgb(17, 17, 17);
+        padding: 24px;
+        border-radius: 10px;
+    }
+    .flex {
+        display: flex;
+        
+        gap: 10px;
+        padding: 24px;
+        border-radius: 10px;
+    }
+    .grid h1 {
+        color: white;
+    }
+</style>
