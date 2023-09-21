@@ -1,0 +1,49 @@
+---
+interface Props {
+    
+}
+---
+
+<div class="container">
+    <a href="#" class="logo" id="logo">
+        <img src="../../public/icons/logo.svg" alt="" class="logo-image">
+    </a>
+    
+    <a href="#" class="logo">
+        <img src="../../public/icons/home-filled.svg" alt="" class="logo-image">  
+        <p>Hjem</p>
+    </a>
+    <a href="#" class="logo">
+        <img src="../../public/icons/search-icon.svg" alt="" class="logo-image">
+        
+        <p>Søg</p>
+    </a>
+
+</div>
+
+<style>
+    .container {
+        width: 230px;
+        aspect-ratio: 16/9;
+        display: grid;
+        padding: 25px;
+        border-radius: 15px;
+        background-color: rgb(17, 17, 17);
+        margin: 10px;
+    }
+    .container a {
+        color: white;
+        text-decoration: none;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 15px;
+    }
+    .container a img{
+        height: 30px;
+    }
+    #logo {
+        fill: white;
+        width: 30%;
+    }
+</style>

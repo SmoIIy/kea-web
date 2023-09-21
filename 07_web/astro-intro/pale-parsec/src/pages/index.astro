@@ -4,23 +4,100 @@ import Layout from '../layouts/Layout.astro';
 import PlaylistCardGrid from '../components/Playlist-card-grid.astro';
 import Card from '../components/Card.astro';
 import PlaylistCard from '../components/Playlist-card.astro';
+import Homesearch from '../components/Homesearch.astro';
+import Button from '../components/Button.astro';
+import Infobox from '../components/Infobox.astro';
 ---
 
-<Layout title='Test' 
-
+<Layout title='Test'>
 	
-
-/>
-
-<PlaylistCardGrid 
-	title='Spotify Playlists'>
-		<h1>HEJ MOR</h1>
-	</PlaylistCardGrid>
-<PlaylistCardGrid 
-	title='Spotify Playlists 2'
-
 	
-/>
+	
+	
+	<Homesearch/>
+	<Infobox 
+			title="Opret dine første playliste" 
+			body="Det er nemt - vi skal nok hjælpe dig">
+			<Button body="Opret Playliste" href="#"/>
+	</Infobox>
+	
+		
+
+
+<PlaylistCardGrid title='Spotify Playlists'>
+
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/66/150/150"/>
+
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/68/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/67/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/69/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/70/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/71/150/150"/>
+
+</PlaylistCardGrid>
+<PlaylistCardGrid title='Spotify Playlists 2'>
+
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/66/150/150"/>
+
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/68/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/67/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/69/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/70/150/150"/>
+	<PlaylistCard
+	title="Playlist"
+	href="#"
+	desc="Playlist test der siger noget om playlisten"
+	image="https://picsum.photos/id/71/150/150"/>
+
+</PlaylistCardGrid>
+
+
+</Layout>
+
 
 
 

@@ -1,0 +1,35 @@
+---
+import Button from './Button.astro';
+interface Props {
+    title: string;
+    body: string;
+}
+
+const {title, body} = Astro.props;
+---
+
+<div class="container">
+    <h3>{title}</h3>
+    <p>{body}</p>
+    <slot />
+</div>
+
+<style>
+    .container {
+        width: 200px;
+        height: 160px;
+        background-color: rgb(40, 40, 40);
+        color: white;
+        padding: 25px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        margin: 10px;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    p {
+        font-size: 1rem;
+    }
+</style>
