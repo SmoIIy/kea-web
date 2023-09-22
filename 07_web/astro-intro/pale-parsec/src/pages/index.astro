@@ -8,24 +8,31 @@ import Homesearch from '../components/Homesearch.astro';
 import Button from '../components/Button.astro';
 import Infobox from '../components/Infobox.astro';
 import Sidebar from '../components/Sidebar.astro';
+import Header from '../components/Header.astro';
 ---
 
 <Layout title='Test'>
+
+	<div class="main-grid">
+		
 	<Homesearch/>
+
+	<Header>
+		<Button body="Log in" href="#"></Button>
+	</Header>
+
 	<Sidebar>
 
 		<Infobox 
 			title="Opret dine første playliste" 
 			body="Det er nemt - vi skal nok hjælpe dig">
 			<Button body="Opret Playliste" href="#"/>
-	</Infobox>
-	<Infobox
+		</Infobox>
+		<Infobox
 			title="Let's find some podcasts"
 			body="We'll keep you updated on new episodes">
 			<Button body="Browse Podcasts" href="#"/>
-	</Infobox>
-
-	
+		</Infobox>
 
 	</Sidebar>
 	
@@ -105,7 +112,7 @@ import Sidebar from '../components/Sidebar.astro';
 	image="https://picsum.photos/id/71/150/150"/>
 
 </PlaylistCardGrid>
-
+</div>
 
 </Layout>
 

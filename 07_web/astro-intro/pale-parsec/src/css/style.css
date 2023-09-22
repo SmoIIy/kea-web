@@ -3,3 +3,10 @@
 :root {
     font-family: 'Signika', sans-serif;
 }
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    grid-template-rows: 1fr;
+}
+
