@@ -7,19 +7,30 @@ import PlaylistCard from '../components/Playlist-card.astro';
 import Homesearch from '../components/Homesearch.astro';
 import Button from '../components/Button.astro';
 import Infobox from '../components/Infobox.astro';
+import Sidebar from '../components/Sidebar.astro';
 ---
 
 <Layout title='Test'>
-	
-	
-	
-	
 	<Homesearch/>
-	<Infobox 
+	<Sidebar>
+
+		<Infobox 
 			title="Opret dine første playliste" 
 			body="Det er nemt - vi skal nok hjælpe dig">
 			<Button body="Opret Playliste" href="#"/>
 	</Infobox>
+	<Infobox
+			title="Let's find some podcasts"
+			body="We'll keep you updated on new episodes">
+			<Button body="Browse Podcasts" href="#"/>
+	</Infobox>
+
+	
+
+	</Sidebar>
+	
+	
+	
 	
 		
 
