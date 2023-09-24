@@ -1,0 +1,50 @@
+---
+import '../css/style.css'
+import Layout from "../layouts/Layout.astro";
+import Homesearch from "../components/Homesearch.astro";
+import Header from "../components/Header.astro";
+import Button from "../components/Button.astro";
+import Infobox from "../components/Infobox.astro";
+import Sidebar from "../components/Sidebar.astro";
+import Badge from '../components/Badge.astro';
+
+---
+<Layout title="search">
+
+    <div class="main-grid">
+    <Homesearch/>
+
+	<Header hasSearch={true}>
+		<Button body="Log in" href="#"></Button>
+	</Header>
+
+	<Sidebar>
+
+		<Infobox 
+			title="Opret dine første playliste" 
+			body="Det er nemt - vi skal nok hjælpe dig">
+			<Button body="Opret Playliste" href="#"/>
+		</Infobox>
+		<Infobox
+			title="Let's find some podcasts"
+			body="We'll keep you updated on new episodes">
+			<Button body="Browse Podcasts" href="#"/>
+		</Infobox>
+
+	</Sidebar>
+<div class="badge-grid">
+    <Badge title='Test'
+            color='black'
+            cover="https://picsum.photos/id/66/150/150.jpg"></Badge>
+    <Badge title='Test'
+            color='black'
+            cover="https://picsum.photos/id/66/150/150.jpg"></Badge>
+    <Badge title='Test'
+            color='black'
+            cover="https://picsum.photos/id/66/150/150.jpg"
+            hasNew={true}></Badge>
+        </div>
+
+
+</div>
+</Layout>

@@ -2,12 +2,16 @@
 
 import Button from "./Button.astro";
 interface Props {
-    
+    hasSearch?: boolean;
 }
+const { hasSearch } = Astro.props;
 
 ---
 
+
+
 <div class="container">
+
     <div class="column" id="column-left">
         <a href="#">
             <img src="../../public/icons/back-btn.svg" alt="">
@@ -16,6 +20,7 @@ interface Props {
             <img src="../../public/icons/forward-btn.svg" alt="">
         </a>
     </div>
+    {hasSearch && <input type="text" placeholder="Search.." />}
     <div class="column">
         <a href="">Sign up</a>
         <slot />
@@ -25,7 +30,7 @@ interface Props {
 <style>
     .container {
         display: flex;
-        width: 100%;
+        width: 96%;
         background-color: rgb(17, 17, 17);
         align-items: center;
         justify-content: space-between;
@@ -59,5 +64,9 @@ interface Props {
         border-radius: 50%;
         padding: 10px;
         margin: 0 8px;
+    }
+    input {
+        padding: 5px;
+        border-radius: 25px;
     }
 </style>

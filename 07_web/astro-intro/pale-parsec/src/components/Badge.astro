@@ -1,0 +1,52 @@
+---
+interface Props {
+    color: string;
+    title: string;
+    cover: string;
+    hasNew?: boolean;
+}
+const {color, title, cover, hasNew} = Astro.props;
+---
+
+<a href="#" class="container">
+        {hasNew && <p class="new-badge"> New!</p> }
+
+    <h2 class="title">
+        {title}
+    </h2>
+    <img src={cover} class="album-cover">
+
+</a>
+
+<style>
+    .container {
+        position: relative;
+        color: white;
+        width: 200px;
+        height: 200px;
+        background-color: purple;
+        padding: 24px;
+        margin: 10px;
+        border-radius: 15px;
+        overflow: hidden;
+        text-decoration: none;
+    }
+    .album-cover {
+        position: absolute;
+        width: 120px;
+        transform: rotate(35deg);
+        translate: 110px 60px;
+        box-shadow: 2px 2px 4px black;
+    }
+    .new-badge {
+        border: solid #13151a;;
+        color: inherit;
+        padding: 3px;
+        border-radius: 25px;
+        text-align: center;
+        position: absolute;
+        translate: 160px -35px;
+
+
+    }
+</style>
